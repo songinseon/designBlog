@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anaheim&display=swap');
+
+header {
+  font-family: 'Anaheim', sans-serif;
+}
+
+.div-wrap {
+  max-width: 1920px;
+}
+
+.logo > img {
+  width:80%;
+}
+
+.footer-go > img {
+  width:80%;
+}
