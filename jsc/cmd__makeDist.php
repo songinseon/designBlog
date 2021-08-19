@@ -4,7 +4,8 @@ require_once "data.php";
 shell_exec("chcp 65001");
 
 $srcPath = dirname(__DIR__);
-$distPath = $srcPath . '/docs';
+$srcPathWithDs = $srcPath . DIRECTORY_SEPARATOR;
+$destPath = 'docs';
 $compileNo = 0;
 
 function compile($originFile) {
@@ -17,9 +18,9 @@ function compile($originFile) {
     foreach ( $articles as $article ) {
       $originFileAndOpt = $originFile . " " . $article['id'];
 
-      $distFile = str_replace(".ssg.php", "_{$article['id']}.html", $originFile);
+      $destFile = str_replace(".ssg.php", "_{$article['id']}.html", $originFile);
     
-      compileItem($originFileAndOpt, $distFile);
+      compileItem($originFileAndOpt, $destFile);
     }
   }
   else if ( $originFileName == "article_list_by_tag.ssg.php" ) {
@@ -28,60 +29,62 @@ function compile($originFile) {
     foreach ( $tags as $tag ) {
       $originFileAndOpt = $originFile . " " . $tag;
 
-      $distFile = str_replace(".ssg.php", "_{$tag}.html", $originFile);
+      $destFile = str_replace(".ssg.php", "_{$tag}.html", $originFile);
 
-      compileItem($originFileAndOpt, $distFile);
+      compileItem($originFileAndOpt, $destFile);
     }
   }
   else if ( endsWith($originFileName, ".ssg.php") ) {
-    $distFile = str_replace(".ssg.php", ".html", $originFile);
-    compileItem($originFileAndOpt, $distFile);
+    $destFile = str_replace(".ssg.php", ".html", $originFile);
+    compileItem($originFileAndOpt, $destFile);
   }
   else if ( endsWith($originFileName, ".php") ) {
     return;
   }
   else {
-    $distFile = $originFile;
-    compileItem($originFileAndOpt, $distFile);
+    $destFile = $originFile;
+    compileItem($originFileAndOpt, $destFile);
   }
 }
 
-function compileItem($originFileAndOpt, $distFile) {
+function compileItem($originFileAndOpt, $destFile) {
   global $compileNo;
-  global $srcPath;
-  global $distPath;
+  global $srcPathWithDs;
+  global $destPath;
 
-  $distFile = str_replace($srcPath, $distPath, $distFile);
+  $originFileAndOpt = str_replace($srcPathWithDs, "", $originFileAndOpt);
+  $destFile = str_replace($srcPathWithDs, $destPath . '/', $destFile);
 
-  $distDirPath = dirname($distFile);
+  $destDirPath = dirname($destFile);
 
-  if ( is_dir($distDirPath) == false ) {
-    mkdir($distDirPath, 0777, true);
+  if ( is_dir($destDirPath) == false ) {
+    mkdir($destDirPath, 0777, true);
   }
 
-  if ( strpos($distFile, ".html") !== false ) {
-    $command = "c:\\xampp\\php\\php.exe {$originFileAndOpt} > {$distFile}";
+  if ( strpos($destFile, ".html") !== false ) {
+    $command = "c:\\xampp\\php\\php.exe {$originFileAndOpt} > {$destFile}";
+    echo "{$command}\n";
     shell_exec($command);
   }
   else {
-    copy($originFileAndOpt, $distFile);
+    copy($originFileAndOpt, $destFile);
   }
 
-  adaptForStatic($distFile);
+  adaptForStatic($destFile);
 
-  echo "{$compileNo} : {$distFile} 생성됨\n";
+  echo "{$compileNo} : {$destFile} 생성됨\n";
   $compileNo++;
 }
 
-function adaptForStatic($distFileName) {
+function adaptForStatic($destFileName) {
 
-  if ( strpos($distFileName, ".html") === false ) {
+  if ( strpos($destFileName, ".html") === false ) {
     return;
   }
 
-  $newSource = file_get_contents($distFileName);
+  $newSource = file_get_contents($destFileName);
   $newSource = str_replace(["&ext=html", "article_detail.ssg.php?id=", "article_list_by_tag.ssg.php?tag=", ".ssg.php"], [".html", "article_detail_", "article_list_by_tag_", ".html"], $newSource);
-  file_put_contents($distFileName, $newSource);
+  file_put_contents($destFileName, $newSource);
 }
 
 @mkdir("docs");
