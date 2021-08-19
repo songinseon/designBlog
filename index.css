@@ -1,7 +1,20 @@
+/* 폰트가져오기 */
 @import url('https://fonts.googleapis.com/css2?family=Anaheim&display=swap');
 
 header {
   font-family: 'Anaheim', sans-serif;
+}
+
+.at { 
+  color:#DDAFAE; 
+}
+
+header nav { 
+  display:flex; 
+}
+
+header nav > a { 
+  display:block; padding:4px; 
 }
 
 .div-wrap {
@@ -9,7 +22,7 @@ header {
 }
 
 .logo > img {
-  width:80%;
+  width:100%;
 }
 
 .footer-go > img {

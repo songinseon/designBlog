@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="index.css">
-  <script src="index.js"></script>
+  <script src="index.js" defer></script>
 
 
 
@@ -28,20 +28,20 @@
 <body>
 
   <!-- 상단바 -->
-  <header class="top-bar flex justify-center w-full mx-auto div-wrap h-24">
+  <header class="top-bar flex justify-center w-full mx-auto div-wrap h-32">
 
     <div class="container mx-auto flex justify-around h-full items-end">
       <!-- 로고 -->
-      <a href="index.php" class="logo">
+      <a href="index.php" class="<?=$pageCode == "home" ? "at" : ""?> logo mr-32">
         <img src="./img/logo.png" alt="">
       </a>
 
       <!-- 상단 메뉴 -->
-      <nav class="whitespace-nowrap">
-        <a class="ml-16" href="">ABOUT ME</a>
-        <a class="ml-16" href="">BRANDING</a>
-        <a class="ml-16" href="pf.php">PORTFOLIO</a>
-        <a class="ml-16" href="">PROCESS</a>
+      <nav class="whitespace-nowrap text-lg">
+        <a class="ml-36" href="">ABOUT ME</a>
+        <a class="<?=$pageCode == "brand" ? "at" : ""?> ml-36" href="">BRANDING</a>
+        <a class="<?=$pageCode == "pf" ? "at" : ""?> ml-36" href="pf.php">PORTFOLIO</a>
+        <a class="<?=$pageCode == "process" ? "at" : ""?> ml-36" href="">PROCESS</a>
       </nav>
 
     </div>
