@@ -28,22 +28,23 @@
 <body>
 
   <!-- 상단바 -->
-<div class="div-wrap">
-  <header class="top-bar flex justify-center w-full mx-auto h-32">
+  <div class="flex-col flex justify-center w-full">
 
-    <div class="container mx-auto flex justify-around h-full items-end">
-      <!-- 로고 -->
-      <a href="index.ssg.php" class="<?=$pageCode == "home" ? "at" : ""?> logo mr-32">
-        <img src="./img/logo.png" alt="">
-      </a>
+    <header class="top-bar h-32 container mx-auto">
 
-      <!-- 상단 메뉴 -->
-      <nav class="whitespace-nowrap text-xl tracking-wider">
-        <a class="ml-36" href="">ABOUT ME</a>
-        <a class="<?=$pageCode == "brand" ? "at" : ""?> ml-36" href="brand.ssg.php">BRANDING</a>
-        <a class="<?=$pageCode == "pf" ? "at" : ""?> ml-36" href="pf.ssg.php">PORTFOLIO</a>
-        <a class="<?=$pageCode == "process" ? "at" : ""?> ml-36" href="process.ssg.php">PROCESS</a>
-      </nav>
+      <div class="flex justify-around h-full items-end">
+        <!-- 로고 -->
+        <a href="index.ssg.php" class="<?=$pageCode == "home" ? "at" : ""?> logo mr-32">
+          <img src="./img/logo.png" alt="">
+        </a>
 
-    </div>
-  </header>
+        <!-- 상단 메뉴 -->
+        <nav class="whitespace-nowrap text-xl tracking-wider">
+          <a class="ml-36" href="">ABOUT ME</a>
+          <a class="<?=$pageCode == "brand" ? "at" : ""?> ml-36" href="brand.ssg.php">BRANDING</a>
+          <a class="<?=$pageCode == "pf" ? "at" : ""?> ml-36" href="pf.ssg.php">PORTFOLIO</a>
+          <a class="<?=$pageCode == "process" ? "at" : ""?> ml-36" href="process.ssg.php">PROCESS</a>
+        </nav>
+
+      </div>
+    </header>

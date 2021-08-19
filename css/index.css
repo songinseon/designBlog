@@ -39,10 +39,12 @@ header nav > a {
   height: 500px;
 }
 
-.pf-slider .swiper-button-next,
+.pf-slider .swiper-button-next {
+  left:50%;
+}
+
 .pf-slider .swiper-button-prev {
-  top:62%;
-  margin:0 200px;
+  left:50%;
 }
 
 .pf-slider .swiper-button-next::after, 
