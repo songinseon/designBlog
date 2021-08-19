@@ -28,7 +28,8 @@
 <body>
 
   <!-- 상단바 -->
-  <header class="top-bar flex justify-center w-full mx-auto div-wrap h-32">
+<div class="div-wrap">
+  <header class="top-bar flex justify-center w-full mx-auto h-32">
 
     <div class="container mx-auto flex justify-around h-full items-end">
       <!-- 로고 -->
@@ -37,7 +38,7 @@
       </a>
 
       <!-- 상단 메뉴 -->
-      <nav class="whitespace-nowrap text-lg tracking-wider">
+      <nav class="whitespace-nowrap text-xl tracking-wider">
         <a class="ml-36" href="">ABOUT ME</a>
         <a class="<?=$pageCode == "brand" ? "at" : ""?> ml-36" href="brand.ssg.php">BRANDING</a>
         <a class="<?=$pageCode == "pf" ? "at" : ""?> ml-36" href="pf.ssg.php">PORTFOLIO</a>

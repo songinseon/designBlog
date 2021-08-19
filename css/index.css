@@ -5,6 +5,8 @@ header {
   font-family: 'Anaheim', sans-serif;
 }
 
+
+/* 상단바, 푸터 */
 .at { 
   color:#DDAFAE;
   font-weight: bold;
@@ -30,3 +32,21 @@ header nav > a {
 .footer-go > img {
   width:100%;
 }
+
+/* 포트폴리오 커스텀 */
+
+.pf-slider {
+  height: 500px;
+}
+
+.pf-slider .swiper-button-next,
+.pf-slider .swiper-button-prev {
+  top:62%;
+  margin:0 200px;
+}
+
+.pf-slider .swiper-button-next::after, 
+.pf-slider .swiper-button-prev::after {
+  display: none;
+}
+
