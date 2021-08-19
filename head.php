@@ -37,11 +37,11 @@
       </a>
 
       <!-- 상단 메뉴 -->
-      <nav class="whitespace-nowrap text-lg">
+      <nav class="whitespace-nowrap text-lg tracking-wider">
         <a class="ml-36" href="">ABOUT ME</a>
-        <a class="<?=$pageCode == "brand" ? "at" : ""?> ml-36" href="">BRANDING</a>
+        <a class="<?=$pageCode == "brand" ? "at" : ""?> ml-36" href="brand.php">BRANDING</a>
         <a class="<?=$pageCode == "pf" ? "at" : ""?> ml-36" href="pf.php">PORTFOLIO</a>
-        <a class="<?=$pageCode == "process" ? "at" : ""?> ml-36" href="">PROCESS</a>
+        <a class="<?=$pageCode == "process" ? "at" : ""?> ml-36" href="process.php">PROCESS</a>
       </nav>
 
     </div>
