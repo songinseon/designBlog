@@ -1,13 +1,18 @@
 /* 폰트가져오기 */
 @import url('https://fonts.googleapis.com/css2?family=Anaheim&display=swap');
 
-header {
+header, .swiper-slide .addi {
   font-family: 'Anaheim', sans-serif;
 }
 
+.pf-slider {
+  font-family: 'MapoFlowerIsland';
+}
+
+
+/* 상단바, 푸터 */
 .at { 
-  color:#DDAFAE;
-  font-weight: bold;
+  color:#CA8A8B;
 }
 
 header nav { 
@@ -29,4 +34,80 @@ header nav > a {
 
 .footer-go > img {
   width:100%;
+}
+
+
+
+/* 포트폴리오 커스텀 */
+
+.pf-slider {
+  height: 500px;
+}
+
+.pf-slider .swiper-button-next {
+  top:50%;
+  right:50%;
+  margin-right:-730px;
+}
+
+.pf-slider .swiper-button-prev {
+  top:50%;
+  left:50%;
+  margin-left:-730px;
+}
+
+.pf-slider .swiper-button-next::after, 
+.pf-slider .swiper-button-prev::after {
+  display: none;
+}
+
+.pf-slider .swiper-slide > div {
+  overflow:hidden;
+  position:relative;
+}
+
+.pf-slider .swiper-slide:hover .bg {
+  opacity:1;
+  visibility:visible;
+}
+
+.pf-slider .swiper-slide:hover .addi {
+  opacity:1;
+  visibility:visible;
+}
+
+.pf-slider .swiper-slide img {
+  width:100%;
+  transition:transform 1s;
+}
+
+.pf-slider .swiper-slide:hover img {
+  transform:scale(1.1);
+}
+
+.pf-slider .swiper-slide a:hover {
+  color:#CA8A8B;
+}
+
+.swiper-slide .bg {
+  position:absolute;
+  z-index:2;
+  background-color:rgba(0,0,0,0.7);
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  opacity:0;
+  visibility:hidden;
+  transition:opacity 0.8s, visivility 0.8s;
+}
+
+.swiper-slide .addi {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translateX(-50%) translateY(-50%);
+  font-weight:bold;
+  opacity:0;
+  z-index: 3;
 }
