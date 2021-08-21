@@ -28,18 +28,18 @@
 <body>
 
   <!-- 상단바 -->
-  <div class="flex-col flex justify-center w-full">
+  <div class="flex flex-col justify-center w-full">
 
-    <header class="top-bar h-32 container mx-auto">
+    <header class="container h-32 mx-auto top-bar">
 
-      <div class="flex justify-around h-full items-end">
+      <div class="flex items-end justify-around h-full">
         <!-- 로고 -->
         <a href="index.ssg.php" class="<?=$pageCode == "home" ? "at" : ""?> logo mr-32">
           <img src="./img/logo.png" alt="">
         </a>
 
         <!-- 상단 메뉴 -->
-        <nav class="whitespace-nowrap text-xl tracking-wider">
+        <nav class="text-xl tracking-wider whitespace-nowrap">
           <a class="ml-36" href="">ABOUT ME</a>
           <a class="<?=$pageCode == "brand" ? "at" : ""?> ml-36" href="brand.ssg.php">BRANDING</a>
           <a class="<?=$pageCode == "pf" ? "at" : ""?> ml-36" href="pf.ssg.php">PORTFOLIO</a>

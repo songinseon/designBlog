@@ -68,7 +68,7 @@ require_once "head.php";
     <img src="./img/portfoliotitle.png" alt="">
   </div>
 
-  <section class="relative mt-24 pf-slider">
+  <section class="relative my-16 pf-slider">
 
     <div class="absolute swiper-button-next">
       <img src="./img/arrowright.png" alt="">
@@ -83,11 +83,11 @@ require_once "head.php";
             <div class="text-white addi whitespace-nowrap">
               <div>
                 <div class="text-2xl">PROJECT</div>
-                <div class="my-2 text-lg font-light">예스24 티켓 사이트 리디자인</div>
+                <div class="my-2 text-base font-light">예스24 티켓 사이트 리디자인</div>
               </div>
               <div class="my-5">
                 <div class="text-2xl">PARTICIPATION</div>
-                <div class="my-2 text-lg font-light ">기획 100%, 디자인 100%</div>
+                <div class="my-2 text-base font-light ">기획 100%, 디자인 100%</div>
               </div>
             </div>
             <img src="./img/pf-1.png" alt="">
@@ -104,11 +104,11 @@ require_once "head.php";
             <div class="text-white addi whitespace-nowrap">
               <div>
                 <div class="text-2xl">PROJECT</div>
-                <div class="my-2 text-lg font-light">일기APP '데이브러쉬' UI/UX</div>
+                <div class="my-2 text-base font-light">일기APP '데이브러쉬' UI/UX</div>
               </div>
               <div class="my-5">
                 <div class="text-2xl">PARTICIPATION</div>
-                <div class="my-2 text-lg font-light ">기획 100%, 디자인 100%, 퍼블리싱100%</div>
+                <div class="my-2 text-base font-light ">기획 100%, 디자인 100%, 퍼블리싱100%</div>
               </div>
             </div>
             <img src="./img/pf-2.png" alt="">
@@ -125,11 +125,11 @@ require_once "head.php";
             <div class="text-white addi whitespace-nowrap">
               <div>
                 <div class="text-2xl">PROJECT</div>
-                <div class="my-2 text-lg font-light">블루콤 데시벨 퍼블리싱</div>
+                <div class="my-2 text-base font-light">블루콤 데시벨 퍼블리싱</div>
               </div>
               <div class="my-5">
                 <div class="text-2xl">PARTICIPATION</div>
-                <div class="my-2 text-lg font-light ">PUBLISHING 100%</div>
+                <div class="my-2 text-base font-light ">PUBLISHING 100%</div>
               </div>
             </div>
             <img src="./img/pf-3.png" alt="">
@@ -146,11 +146,11 @@ require_once "head.php";
             <div class="text-white addi whitespace-nowrap">
               <div>
                 <div class="text-2xl">PROJECT</div>
-                <div class="my-2 text-lg font-light">개인블로그 디자인</div>
+                <div class="my-2 text-base font-light">개인블로그 디자인</div>
               </div>
               <div class="my-5">
                 <div class="text-2xl">PARTICIPATION</div>
-                <div class="my-2 text-lg font-light ">기획100%, 디자인 100%, 퍼블리싱 100%</div>
+                <div class="my-2 text-base font-light ">기획100%, 디자인 100%, 퍼블리싱 100%</div>
               </div>
             </div>
             <img src="./img/pf-4.png" alt="">
@@ -167,11 +167,11 @@ require_once "head.php";
             <div class="text-white addi whitespace-nowrap">
               <div>
                 <div class="text-2xl">PROJECT</div>
-                <div class="my-2 text-lg font-light">빽다방사이트 퍼블리싱</div>
+                <div class="my-2 text-base font-light">빽다방사이트 퍼블리싱</div>
               </div>
               <div class="my-5">
                 <div class="text-2xl">PARTICIPATION</div>
-                <div class="my-2 text-lg font-light ">퍼블리싱 100%</div>
+                <div class="my-2 text-base font-light ">퍼블리싱 100%</div>
               </div>
             </div>
             <img src="./img/pf-5.png" alt="">
