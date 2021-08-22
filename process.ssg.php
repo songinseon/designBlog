@@ -7,6 +7,37 @@ $pageCode = "process";
 require_once "head.php";
 ?>
 
+<!-- 스크롤확인용 -->
+  <div class="absolute pH-1">
+    <img src="./img/Vector-1.png" alt="">
+  </div>
+
+  <div class="absolute pH-2">
+    <img src="./img/Vector-1.png" alt="">
+  </div>
+  
+  <div class="absolute pH-3">
+    <img src="./img/Vector-1.png" alt="">
+  </div>
+
+  <div class="absolute pH-4">
+    <img src="./img/Vector-1.png" alt="">
+  </div>
+
+  <div class="absolute pH-5">
+    <img src="./img/Vector-1.png" alt="">
+  </div>
+
+  <div class="absolute pH-6">
+    <img src="./img/Vector-1.png" alt="">
+  </div>
+
+  <div class="absolute pH-7">
+    <img src="./img/Vector-1.png" alt="">
+  </div>
+
+
+  <!-- 프로세스 커스텀 -->
 <div class="relative flex justify-center w-full mx-auto div-wrap">
   <div>
     <img src="./img/process.png" alt="">
@@ -46,8 +77,36 @@ require_once "head.php";
     <img src="./img/process-font2.png" alt="">
   </div>
 
-  <div class="absolute pr-color">
-    <img src="./img/process-color.png" alt="">
+  <div class="absolute pr-color1">
+    <img src="./img/pr-color1.png" alt="">
+  </div>
+
+  <div class="absolute pr-color2">
+    <img src="./img/pr-color2.png" alt="">
+  </div>
+
+  <div class="absolute pr-color3">
+    <img src="./img/pr-color3.png" alt="">
+  </div>
+
+  <div class="absolute pr-color4">
+    <img src="./img/pr-color4.png" alt="">
+  </div>
+
+  <div class="absolute pr-1">
+    <img src="./img/process-1.png" alt="">
+  </div>
+
+  <div class="absolute pr-2">
+    <img src="./img/process-2.png" alt="">
+  </div>
+
+  <div class="absolute pr-3">
+    <img src="./img/process-3.png" alt="">
+  </div>
+
+  <div class="absolute pr-4">
+    <img src="./img/process-4.png" alt="">
   </div>
 
 </div>

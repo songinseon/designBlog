@@ -14,6 +14,19 @@ require_once "head.php";
     <img src="./img/BRAND.png" alt="">
   </div>
 
+  <!-- 스크롤확인용 -->
+  <div class="absolute BH-1">
+    <img src="./img/Vector-1.png" alt="">
+  </div>
+
+  <div class="absolute BH-2">
+    <img src="./img/Vector-1.png" alt="">
+  </div>
+  
+  <div class="absolute BH-3">
+    <img src="./img/Vector-1.png" alt="">
+  </div>
+
   <!-- 로고 ex -->
   <div class="absolute logo-write">
     <img src="./img/logo-write.png" alt="">
@@ -47,8 +60,16 @@ require_once "head.php";
     <img src="./img/logo-name.png" alt="">
   </div>
 
-  <div class="absolute logo-color">
-    <img src="./img/logo-color.png" alt="">
+  <div class="absolute logo-color1">
+    <img src="./img/logocolor-1.png" alt="">
+  </div>
+
+  <div class="absolute logo-color2">
+    <img src="./img/logocolor-2.png" alt="">
+  </div>
+
+  <div class="absolute logo-color3">
+    <img src="./img/logocolor-3.png" alt="">
   </div>
 
 
