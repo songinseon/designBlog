@@ -15,6 +15,9 @@
   <!-- 스크롤 트리거 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+  <!-- 풀페이지 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css">
   <!-- 스와이퍼 -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -40,7 +43,7 @@
 
         <!-- 상단 메뉴 -->
         <nav class="text-xl tracking-wider whitespace-nowrap">
-          <a class="ml-36" href="">ABOUT ME</a>
+          <a class="<?=$pageCode == "home" ? "at" : ""?> ml-36" href="index.ssg.php">HOME</a>
           <a class="<?=$pageCode == "brand" ? "at" : ""?> ml-36" href="brand.ssg.php">BRANDING</a>
           <a class="<?=$pageCode == "pf" ? "at" : ""?> ml-36" href="pf.ssg.php">PORTFOLIO</a>
           <a class="<?=$pageCode == "process" ? "at" : ""?> ml-36" href="process.ssg.php">PROCESS</a>

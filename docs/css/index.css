@@ -15,6 +15,7 @@ header, .swiper-slide .addi {
   color:#CA8A8B;
 }
 
+
 header nav { 
   display:flex; 
 }
@@ -44,6 +45,10 @@ footer {
   width:11%;
 }
 
+/* 메인페이지 커스텀 */
+#fullpage section img {
+  width:85%;
+}
 /* 스크롤 확인용 */
 .BH-1 {
   top:18%;
@@ -235,14 +240,14 @@ footer {
 
 .logo-color2 {
   top:74%;
-  left:39%;
+  left:38.5%;
   width:24%;
   z-index: 1;
 }
 
 .logo-color3 {
   top:74%;
-  left:62.5%;
+  left:61.5%;
   width:24%;
 }
 

@@ -1,5 +1,14 @@
 $('html').niceScroll();
 
+function Fullpage__init() {
+  new fullpage('#fullpage', {
+    sectionsColor: ['white', 'white', 'white'],
+    menu: "header .menu-box"
+  });
+}
+
+Fullpage__init();
+
 // 포트폴리오 슬라이드
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 4,
