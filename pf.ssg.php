@@ -15,12 +15,6 @@ require_once "head.php";
   }
 
   body {
-    @font-face {
-      font-family: 'MapoFlowerIsland';
-      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-    }
 
     font-size: 14px;
     color: #000;
@@ -129,7 +123,7 @@ require_once "head.php";
               </div>
               <div class="my-5">
                 <div class="text-2xl">PARTICIPATION</div>
-                <div class="my-2 text-base font-light ">PUBLISHING 100%</div>
+                <div class="my-2 text-base font-light ">퍼블리싱 100%</div>
               </div>
             </div>
             <img src="./img/pf-3.png" alt="">

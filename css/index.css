@@ -1,6 +1,13 @@
 /* 폰트가져오기 */
 @import url('https://fonts.googleapis.com/css2?family=Anaheim&display=swap');
 
+@font-face {
+  font-family: 'MapoFlowerIsland';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 header, .swiper-slide .addi {
   font-family: 'Anaheim', sans-serif;
 }
@@ -191,6 +198,7 @@ footer {
 .logo-ex {
   top:27%;
   left:62%;
+  width:30%;
 }
 
 .logo-ex1 {
@@ -256,6 +264,7 @@ footer {
 .pr-desktop {
   top:3.5%;
   z-index: 2;
+  width:60%;
 }
 
 .pr-desktop > img {
