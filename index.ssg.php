@@ -69,8 +69,38 @@ require_once "head.php";
   </section>
 
 
-  <section class="section" data-anchor="section-2">
-    <div class="flex justify-center w-full">
+  <section class="section h-screen" data-anchor="section-2">
+    <div class="flex justify-center h-full items-end container mx-auto">
+
+      <div class="m2-text1 w-2/4 h-5/6 whitespace-nowrap">
+        <div class="flex text-3xl items-center justify-center h-1/5 w-full">
+          <div>
+            <div class="mb-5">신입</div>
+            <div>웹디자이너</div>
+          </div>
+          <div class="mt-12 ml-10">송 인 선</div>
+          <div class="mt-12 ml-10">입니다.</div>
+        </div>
+
+        <div class="h-4/5 w-full"></div>
+      </div>
+
+      <div class="m2-text2 w-2/4 h-5/6">
+        <div class="flex items-center justify-center h-1/5 w-full">
+          <div class="w-4/6 h-full bg-blue-500">
+          <ul>
+            <li>싹을 틔울 수 있는</li>
+            <li>열정을 태울 수 있는</li>
+          </ul>
+          <div>저는 햇살같은 디자이너입니다.</div>
+          </div>
+          <div class="w-2/6 h-full bg-red-500">
+            <img src="./" alt="">
+          </div>
+        </div>
+
+        <div class="flex items-center justify-center h-4/5 w-full"></div>
+      </div>
 
     </div>
   </section>
@@ -78,9 +108,16 @@ require_once "head.php";
 
   <section class="section" data-anchor="section-3">
     <div class="flex justify-center">
-      <img src="./img/INTRODUCE.png" alt="">
     </div>
   </section>
+
+
+  <section class="section" data-anchor="section-4">
+    <div class="flex justify-center">
+    </div>
+  </section>
+
+
 </div>
 </div>
 
