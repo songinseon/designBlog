@@ -120,7 +120,7 @@ function Play_AnimationInit() {
     opacity: 1,
     x:0,
     duration: 1,
-    delay: 0.5,
+    delay: 0.3,
     scrollTrigger: {
       trigger: '.BH-3',
       start: '-10% 0%',

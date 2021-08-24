@@ -30,15 +30,18 @@ require_once "head.php";
       </div>
 
       <div class="m-text2 relative flex self-end h-full items-end w-2/4">
-        <a href="pf.ssg.php" class="flex flex-col text-xl ml-28 mb-32 font-bold">
+        <a href="pf.ssg.php" class="main-prtext flex flex-col text-xl ml-28 mb-32 relative">
           <div>VIEW</div>
           <div>PORTFOLIO</div>
+          <div class="main-prarrow absolute">
+            <img src="./img/arrow-r.png" alt="">
+          </div>
         </a>
         <ul class="-ml-20 mb-24">
           <li>PUBLISHING</li>
         </ul>
         <ul class="flex -ml-20 mb-16">
-          <li class="mr-6 ml-1">UI/UX</li>
+          <li class="mr-8 ml-1">UI/UX</li>
           <li class="">WEB</li>
         </ul>
       </div>
@@ -54,10 +57,13 @@ require_once "head.php";
           <div class="text-4xl mt-6 ml-14">입니다.</div>
         </div>
 
-        <div class="m-text3 flex flex-col items-end mr-14 text-xl mb-16 font-bold">
+        <a href="#section-2" class="relative main-metext m-text3 flex flex-col items-end mr-20 text-xl mb-16">
           <div>VIEW</div>
           <div>ABOUT ME</div>
-        </div>
+          <div class="main-mearrow absolute ml-2">
+            <img src="./img/arrow-r.png" alt="">
+          </div>
+        </a>
       </div>
     </div>
   </section>
