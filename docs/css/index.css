@@ -1,11 +1,19 @@
 /* 폰트가져오기 */
 @import url('https://fonts.googleapis.com/css2?family=Anaheim&display=swap');
 
-header, .swiper-slide .addi {
+
+@font-face {
+  font-family: 'MapoFlowerIsland';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+header, .swiper-slide .addi, #fullpage .m-text2, #fullpage .m-text3 {
   font-family: 'Anaheim', sans-serif;
 }
 
-.pf-slider {
+.pf-slider, #fullpage {
   font-family: 'MapoFlowerIsland';
 }
 
@@ -46,9 +54,137 @@ footer {
 }
 
 /* 메인페이지 커스텀 */
-#fullpage section img {
-  width:85%;
+#fullpage .m-text1 > div:first-child div {
+  position: relative;
 }
+
+#fullpage .m-text1 > div:first-child div:first-child::after {
+  content:"";
+  width:100%;
+  height: 7px;
+  background-color: #990003;
+  position: absolute;
+  bottom: 0;
+  left:0;
+  margin-bottom:5px;
+  opacity: 20%;
+}
+
+#fullpage .m-text1 > div:first-child div:nth-child(2)::after {
+  content:"";
+  width:77%;
+  height: 7px;
+  background-color: #990003;
+  position: absolute;
+  bottom: 0;
+  left:0;
+  margin-bottom:5px;
+  opacity: 20%;
+}
+
+#fullpage .m-text1 > div:first-child div:last-child::after {
+  content:"";
+  width:78%;
+  height: 7px;
+  background-color: #990003;
+  position: absolute;
+  bottom: 0;
+  left:0;
+  margin-bottom:5px;
+  opacity: 20%;
+}
+
+#fullpage .m-text1 > div:nth-child(2) {
+  position: relative;
+}
+
+#fullpage .m-text1 > div:nth-child(2)::before {
+  content:"{ ";
+  color:black;
+  height: 7px;
+  position: absolute;
+  top: 0;
+  left:0;
+  margin-left:-22px;
+}
+
+#fullpage .m-text1 > div:nth-child(2)::after {
+  content:"}";
+  color:black;
+  height: 7px;
+  position: absolute;
+  top: 0;
+  right:0;
+  margin-right: 31px;
+}
+
+
+#fullpage .m-text1 > div:last-child {
+  position: relative;
+}
+
+#fullpage .m-text1 > div:last-child::after {
+  content:"";
+  width:90%;
+  height: 7px;
+  background-color: #990003;
+  position: absolute;
+  bottom: 0;
+  left:0;
+  margin-bottom:5px;
+  opacity: 20%;
+}
+
+
+#fullpage .m-text2 li::before {
+    content: "•";
+    color: #CA8A8B;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em
+}
+
+.m-sprout {
+  width:8%;
+  margin-top: 380px;
+  margin-left:200px ;
+  z-index: 1;
+}
+
+
+.wrapper {
+	width: 250px;
+	height: 250px;
+}
+
+.wrapper div {
+  position: absolute;
+  background: #FEE3C0;
+  border-radius: 50%;
+  box-shadow: 0 0 50px 1px #FEE3C0;
+  top:50%;
+  left:50%;
+  margin-left: -200px;
+  margin-top:-120px;
+}
+
+.circle1 {
+  width: 280px;
+  height: 280px;
+  top: 80px;
+  left: 80px;
+  /* 추가된 부분 */
+	animation: scale1 1.3s infinite alternate;
+}
+
+
+@keyframes scale1 {
+	0%   { transform: scale(1.4) }
+	100%  { transform: scale(1.53) }
+}
+
+
+
 /* 스크롤 확인용 */
 .BH-1 {
   top:18%;
@@ -91,12 +227,12 @@ footer {
 }
 
 .pH-6 {
-  top:450%;
+  top:405%;
   opacity: 0;
 }
 
 .pH-7 {
-  top:550%;
+  top:505%;
   opacity: 0;
 }
 
@@ -191,6 +327,7 @@ footer {
 .logo-ex {
   top:27%;
   left:62%;
+  width:30%;
 }
 
 .logo-ex1 {
@@ -256,6 +393,7 @@ footer {
 .pr-desktop {
   top:3.5%;
   z-index: 2;
+  width:60%;
 }
 
 .pr-desktop > img {

@@ -25,7 +25,6 @@
   <script src="./js/index.js" defer></script>
 
 
-
 </head>
 
 <body>
