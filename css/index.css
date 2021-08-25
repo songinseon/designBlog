@@ -283,7 +283,7 @@ footer {
 
 #fullpage .m2-text1>div:first-child>div:nth-child(2)::before {
   content:"{}";
-  letter-spacing: 140px;
+  letter-spacing: 124px;
   color: black;
   position: absolute;
   top: 0;
@@ -348,16 +348,16 @@ footer {
 }
 
 .m2-text3-info {
-  width: 86%;
+  width: 75%;
 }
 
 .m2-text3-character {
-  width: 90%;
+  width: 88%;
 }
 
 #fullpage .section.active .m2-text3-chart1 {
-  width:74%;
-  height: 25px;
+  width:70%;
+  height: 24px;
   background-color: #dba7a8;  
   animation: chart-1 1.5s;
 }
@@ -368,13 +368,13 @@ footer {
   }
 
   100% {
-    width:74%;
+    width:70%;
   }
 }
 
 #fullpage .section.active .m2-text3-chart2 {
-  width:80%;
-  height: 25px;
+  width:74%;
+  height: 24px;
   background-color: #dba7a8;  
   animation: chart-2 1.5s;
 }
@@ -385,13 +385,13 @@ footer {
   }
 
   100% {
-    width:80%;
+    width:74%;
   }
 }
 
 #fullpage .section.active .m2-text3-chart3 {
-  width:65%;
-  height: 25px;
+  width:63%;
+  height: 24px;
   background-color: #dba7a8;
   animation: chart-3 1.5s;  
 }
@@ -402,12 +402,12 @@ footer {
   }
 
   100% {
-    width:65%;
+    width:63%;
   }
 }
 
 #fullpage .section.active .m2-text3-chart4 {
-  width:76%;
+  width:69%;
   height: 25px;
   background-color: #dba7a8;
   animation: chart-4 1.5s;  
@@ -419,17 +419,17 @@ footer {
   }
 
   100% {
-    width:76%;
+    width:69%;
   }
 }
 
 .m2-text3-skill {
-  width: 80%;
+  width: 77%;
 }
 
 #fullpage .section.active .m2-text3-chart5, #fullpage .section.active .m2-text3-chart6 {
-  width:76%;
-  height: 25px;
+  width:63%;
+  height: 23px;
   background-color: #dba7a8;
   animation: chart-5 1.5s;  
 }
@@ -440,13 +440,13 @@ footer {
   }
 
   100% {
-    width:76%;
+    width:63%;
   }
 }
 
 #fullpage .section.active .m2-text3-chart7 {
-  width:74%;
-  height: 25px;
+  width:60%;
+  height: 23px;
   background-color: #dba7a8;
   animation: chart-7 1.5s;  
 }
@@ -457,13 +457,13 @@ footer {
   }
 
   100% {
-    width:74%;
+    width:60%;
   }
 }
 
 #fullpage .section.active .m2-text3-chart8 {
-  width:60%;
-  height: 25px;
+  width:58%;
+  height: 23px;
   background-color: #dba7a8;
   animation: chart-8 1.5s;  
 }
@@ -474,18 +474,64 @@ footer {
   }
 
   100% {
-    width:60%;
+    width:58%;
   }
 }
 
 .me-like1 {
-  width:80%;
+  width:78%;
 }
 
 .me-like2 {
-  width:90%;
+  width:65%;
 }
 
+.m3-text1 {
+  position: relative;
+}
+
+.m3-text1::after {
+  content: "";
+  width: 100%;
+  height: 6px;
+  top: auto;
+  bottom: 5px;
+  left: 0;
+  background-color: #990003;
+  opacity: 25%;
+  position: absolute;
+}
+
+.m3-text2 {
+  position: relative;
+}
+
+.m3-text2::after {
+  content: "";
+  width: 100%;
+  height: 6px;
+  top: auto;
+  bottom: 5px;
+  left: 0;
+  background-color: #990003;
+  opacity: 25%;
+  position: absolute;
+}
+
+.m3-stroke {
+  margin-top:15px;
+  width:1.3%;
+  height: 1px;
+  background-color: #4e4e4e;
+}
+
+.m3-card {
+  width:17%;
+}
+
+.m3-card2 {
+  width:18%;
+}
 
 /* 스크롤 확인용 */
 .BH-1 {

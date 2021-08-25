@@ -68,7 +68,7 @@ require_once "head.php";
       <img src="./img/arrowright.png" alt="">
     </div>
 
-    <div class="container h-screen mx-auto swiper-container mySwiper max-w-7xl">
+    <div class="container overflow-hidden h-screen mx-auto swiper-container mySwiper max-w-7xl">
       <div class="swiper-wrapper">
 
         <div class="flex flex-col swiper-slide">
