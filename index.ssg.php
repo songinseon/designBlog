@@ -78,7 +78,7 @@ require_once "head.php";
             <div class="mb-5">신입</div>
             <div>웹디자이너</div>
           </div>
-          <div class="mt-12 ml-10">송 인 선</div>
+          <div class="m2-text1-name ani mt-12 ml-10">송 인 선</div>
           <div class="mt-12 ml-10">입니다.</div>
         </div>
 
@@ -87,15 +87,15 @@ require_once "head.php";
 
       <div class="m2-text2 w-2/4 h-5/6">
         <div class="flex items-center justify-center h-1/5 w-full">
-          <div class="w-4/6 h-full bg-blue-500">
-          <ul>
+          <div class="w-4/6 text-xl mt-7 h-full flex flex-col justify-center whitespace-nowrap">
+          <ul class="ml-28 m2-text2-list">
             <li>싹을 틔울 수 있는</li>
             <li>열정을 태울 수 있는</li>
           </ul>
-          <div>저는 햇살같은 디자이너입니다.</div>
+          <div class="ml-28 mt-7 flex">저는<div class="ml-2 m2-text2-sun">햇살</div>같은 디자이너입니다.</div>
           </div>
-          <div class="w-2/6 h-full bg-red-500">
-            <img src="./" alt="">
+          <div class="m2-sun w-2/6 h-full mr-28">
+            <img src="./img/main-sun.png" alt="">
           </div>
         </div>
 
