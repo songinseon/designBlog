@@ -82,17 +82,33 @@ require_once "head.php";
           <div class="mt-12 ml-10">입니다.</div>
         </div>
 
-        <div class="h-4/5 w-full"></div>
+        <div class="m2-text3 h-4/5 ml-16 w-full">
+          <div class="w-full h-1/4 flex flex-col items-center">
+            <div class="m2-text3-info mt-8"><img src="./img/me-information.png" alt=""></div>
+
+            <div class="flex justify-center mt-9 text-lg">
+              <div class="flex">NAME<div class="ml-8" style="font-family: 'MapoFlowerIsland';">송 인 선</div>
+              </div>
+              <div class="flex ml-48">E-MAIL<div class="ml-8">songsun95@naver.com</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="m2-text3-character w-full h-3/4 flex flex-col items-center">
+            <div class="mr-10"><img src="./img/me-character.png" alt=""></div>
+            <div></div>
+          </div>
+        </div>
       </div>
 
       <div class="m2-text2 w-2/4 h-5/6">
         <div class="flex items-center justify-center h-1/5 w-full">
           <div class="w-4/6 text-xl mt-7 h-full flex flex-col justify-center whitespace-nowrap">
-          <ul class="ml-28 m2-text2-list">
-            <li>싹을 틔울 수 있는</li>
-            <li>열정을 태울 수 있는</li>
-          </ul>
-          <div class="ml-28 mt-7 flex">저는<div class="ml-2 m2-text2-sun">햇살</div>같은 디자이너입니다.</div>
+            <ul class="ml-28 m2-text2-list">
+              <li>싹을 틔울 수 있는</li>
+              <li>열정을 태울 수 있는</li>
+            </ul>
+            <div class="ml-28 mt-7 flex">저는<div class="ml-2 m2-text2-sun">햇살</div>같은 디자이너입니다.</div>
           </div>
           <div class="m2-sun w-2/6 h-full mr-28">
             <img src="./img/main-sun.png" alt="">
