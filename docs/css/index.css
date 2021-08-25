@@ -12,7 +12,7 @@
 header,
 .swiper-slide .addi,
 #fullpage .m-text2,
-#fullpage .m-text3 {
+#fullpage .m-text3, #fullpage .m2-text3 {
   font-family: 'Anaheim', sans-serif;
 }
 
@@ -280,18 +280,17 @@ footer {
   color: white;
 }
 
-#fullpage .m2-text1 > div >div:nth-child(2)::before {
+#fullpage .m2-text1 > div:first-child > div:nth-child(2)::before {
   content:"{}";
   letter-spacing: 120px;
   color: black;
-  height: 7px;
   position: absolute;
   top: 0;
   left: 0;
   margin-left: -22px;
 }
 
-#fullpage .section.active .m2-text1> div >div:nth-child(2)::after {
+#fullpage .section.active .m2-text1> div:first-child >div:nth-child(2)::after {
   content: "송 인 선";
   color: black;
   width: 100%;
@@ -326,7 +325,9 @@ footer {
 }
 
 .m2-text2-list > li::before {
-  content: "";
+  content: "•";
+  display: inline-block;
+  width: 1em;
 }
 
 .m2-text2-sun {
@@ -344,6 +345,15 @@ footer {
   opacity: 25%;
   position: absolute;
 }
+
+.m2-text3-info {
+  width:86%;
+}
+
+.m2-text3-character {
+  width: 86;
+}
+
 
 /* 스크롤 확인용 */
 .BH-1 {
