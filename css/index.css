@@ -12,7 +12,8 @@
 header,
 .swiper-slide .addi,
 #fullpage .m-text2,
-#fullpage .m-text3, #fullpage .m2-text3 {
+#fullpage .m-text3,
+#fullpage .m2-text3 {
   font-family: 'Anaheim', sans-serif;
 }
 
@@ -124,7 +125,7 @@ footer {
   top: 0;
   left: 0;
   overflow: hidden;
-  animation: typing 3.8s steps(3);
+  animation: typing 3s steps(3);
 }
 
 @keyframes typing {
@@ -214,29 +215,29 @@ footer {
 }
 
 .main-prarrow {
-  width:30%;
-  top:30%;
-  left:110%;
+  width: 30%;
+  top: 30%;
+  left: 110%;
   transition: 0.3s;
 }
 
 .main-prtext:hover .main-prarrow {
-  transform:translateX(50%);
+  transform: translateX(50%);
 }
 
 .main-prtext:hover {
-  color:#CA8A8B;
+  color: #CA8A8B;
 }
 
 .main-metext:hover {
-  color:#CA8A8B;
+  color: #CA8A8B;
 }
 
 .main-mearrow {
-  width:40%;
-  top:50%;
-  left:100%;
-  right:0;
+  width: 40%;
+  top: 50%;
+  left: 100%;
+  right: 0;
   transform: rotate(90deg);
   animation-name: mainfloating;
   animation-duration: 1s;
@@ -258,7 +259,7 @@ footer {
 }
 
 /* 어바웃미 */
-#fullpage .m2-text1 > div:first-child div div:last-child::after {
+#fullpage .m2-text1>div:first-child div div:last-child::after {
   content: "";
   width: 100%;
   height: 7px;
@@ -274,15 +275,15 @@ footer {
   position: relative;
 }
 
-#fullpage .m2-text1 > div >div:nth-child(2) {
+#fullpage .m2-text1>div>div:nth-child(2) {
   position: relative;
   white-space: nowrap;
   color: white;
 }
 
-#fullpage .m2-text1 > div:first-child > div:nth-child(2)::before {
+#fullpage .m2-text1>div:first-child>div:nth-child(2)::before {
   content:"{}";
-  letter-spacing: 120px;
+  letter-spacing: 140px;
   color: black;
   position: absolute;
   top: 0;
@@ -290,7 +291,7 @@ footer {
   margin-left: -22px;
 }
 
-#fullpage .section.active .m2-text1> div:first-child >div:nth-child(2)::after {
+#fullpage .section.active .m2-text1>div:first-child>div:nth-child(2)::after {
   content: "송 인 선";
   color: black;
   width: 100%;
@@ -299,7 +300,7 @@ footer {
   top: 0;
   left: 0;
   overflow: hidden;
-  animation: typing-2 3.8s steps(3);
+  animation: typing-2 2s steps(3);
 }
 
 
@@ -321,10 +322,10 @@ footer {
 }
 
 .m2-sun {
-  width:17%;
+  width: 17%;
 }
 
-.m2-text2-list > li::before {
+.m2-text2-list>li::before {
   content: "•";
   display: inline-block;
   width: 1em;
@@ -336,22 +337,153 @@ footer {
 
 .m2-text2-sun::after {
   content: "";
-  width:100%;
+  width: 100%;
   height: 5px;
-  top:auto;
+  top: auto;
   bottom: 5px;
   left: 0;
-  background-color:#990003;
+  background-color: #990003;
   opacity: 25%;
   position: absolute;
 }
 
 .m2-text3-info {
-  width:86%;
+  width: 86%;
 }
 
 .m2-text3-character {
-  width: 86;
+  width: 90%;
+}
+
+#fullpage .section.active .m2-text3-chart1 {
+  width:74%;
+  height: 25px;
+  background-color: #dba7a8;  
+  animation: chart-1 1.5s;
+}
+
+@keyframes chart-1 {
+  0% {
+    width: 50%;
+  }
+
+  100% {
+    width:74%;
+  }
+}
+
+#fullpage .section.active .m2-text3-chart2 {
+  width:80%;
+  height: 25px;
+  background-color: #dba7a8;  
+  animation: chart-2 1.5s;
+}
+
+@keyframes chart-2 {
+  0% {
+    width: 50%;
+  }
+
+  100% {
+    width:80%;
+  }
+}
+
+#fullpage .section.active .m2-text3-chart3 {
+  width:65%;
+  height: 25px;
+  background-color: #dba7a8;
+  animation: chart-3 1.5s;  
+}
+
+@keyframes chart-3 {
+  0% {
+    width: 50%;
+  }
+
+  100% {
+    width:65%;
+  }
+}
+
+#fullpage .section.active .m2-text3-chart4 {
+  width:76%;
+  height: 25px;
+  background-color: #dba7a8;
+  animation: chart-4 1.5s;  
+}
+
+@keyframes chart-4 {
+  0% {
+    width: 50%;
+  }
+
+  100% {
+    width:76%;
+  }
+}
+
+.m2-text3-skill {
+  width: 80%;
+}
+
+#fullpage .section.active .m2-text3-chart5, #fullpage .section.active .m2-text3-chart6 {
+  width:76%;
+  height: 25px;
+  background-color: #dba7a8;
+  animation: chart-5 1.5s;  
+}
+
+@keyframes chart-5 {
+  0% {
+    width: 50%;
+  }
+
+  100% {
+    width:76%;
+  }
+}
+
+#fullpage .section.active .m2-text3-chart7 {
+  width:74%;
+  height: 25px;
+  background-color: #dba7a8;
+  animation: chart-7 1.5s;  
+}
+
+@keyframes chart-7 {
+  0% {
+    width: 50%;
+  }
+
+  100% {
+    width:74%;
+  }
+}
+
+#fullpage .section.active .m2-text3-chart8 {
+  width:60%;
+  height: 25px;
+  background-color: #dba7a8;
+  animation: chart-8 1.5s;  
+}
+
+@keyframes chart-8 {
+  0% {
+    width: 50%;
+  }
+
+  100% {
+    width:60%;
+  }
+}
+
+.me-like1 {
+  width:80%;
+}
+
+.me-like2 {
+  width:90%;
 }
 
 

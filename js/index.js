@@ -57,7 +57,7 @@ function Play_AnimationInit() {
     x: -20,
   }, {
     opacity: 1,
-    x:0,
+    x: 0,
     duration: 1,
     delay: 0.5,
     scrollTrigger: {
@@ -70,10 +70,10 @@ function Play_AnimationInit() {
 
   gsap.fromTo('.logo-ex3', {
     opacity: 0,
-    x:-20,
+    x: -20,
   }, {
     opacity: 1,
-    x:0,
+    x: 0,
     duration: 1,
     delay: 1,
     scrollTrigger: {
@@ -103,7 +103,7 @@ function Play_AnimationInit() {
     x: -100,
   }, {
     opacity: 1,
-    x:0,
+    x: 0,
     duration: 1,
     scrollTrigger: {
       trigger: '.BH-3',
@@ -115,10 +115,10 @@ function Play_AnimationInit() {
 
   gsap.fromTo('.logo-color3', {
     opacity: 0,
-    x:-100,
+    x: -100,
   }, {
     opacity: 1,
-    x:0,
+    x: 0,
     duration: 1,
     delay: 0.3,
     scrollTrigger: {
@@ -136,7 +136,7 @@ function Play_AnimationInit() {
     x: -100,
   }, {
     opacity: 1,
-    x:0,
+    x: 0,
     duration: 1,
     scrollTrigger: {
       trigger: '.pH-3',
@@ -148,10 +148,10 @@ function Play_AnimationInit() {
 
   gsap.fromTo('.pr-color3', {
     opacity: 0,
-    x:-100,
+    x: -100,
   }, {
     opacity: 1,
-    x:0,
+    x: 0,
     duration: 1,
     delay: 0.5,
     scrollTrigger: {
@@ -164,10 +164,10 @@ function Play_AnimationInit() {
 
   gsap.fromTo('.pr-color4', {
     opacity: 0,
-    x:-100,
+    x: -100,
   }, {
     opacity: 1,
-    x:0,
+    x: 0,
     duration: 1,
     delay: 1,
     scrollTrigger: {
@@ -234,7 +234,7 @@ function Play_AnimationInit() {
     duration: 1
   });
 
-  
+
 
 
 }
