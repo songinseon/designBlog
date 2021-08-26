@@ -544,7 +544,7 @@ footer {
 
 .m3-card {
   width:15%;
-  height: 80%;
+  height: 70%;
   border-radius: 10%;
   box-shadow: 0 0 4px lightgray;
 }
@@ -554,13 +554,17 @@ footer {
 }
 
 .m3-card > img {
-  width:67%;
+  width:60%;
+}
+
+.m3-card2 > img {
+  width:60%;
 }
 
 
 .m3-card2 {
   width:16%;
-  height: 80%;
+  height: 75%;
   border-radius: 10%;
   box-shadow: 1px 1px 6px lightgray;
 }
