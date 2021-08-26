@@ -9,6 +9,18 @@ function Fullpage__init() {
 
 Fullpage__init();
 
+// 탑버튼
+$(function() {
+	$(window).scroll(function() { 
+		if ($(this).scrollTop() > 400) { 
+			$('#topBtn').fadeIn(); } 
+		else { $('#topBtn').fadeOut(); }
+	}); 
+	$("#topBtn").click(function() { 
+  $('html, body').animate({ scrollTop : 0  }, 400); 
+    return false; });
+});
+
 // 포트폴리오 슬라이드
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 4,

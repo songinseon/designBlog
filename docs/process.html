@@ -19,9 +19,6 @@
   <!-- 풀페이지 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css">
-  <!-- 차트 바 -->
-  <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
   <!-- 스와이퍼 -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -54,6 +51,9 @@
 
       </div>
     </header>
+<!-- 탑버튼 만들기 -->
+<a id="topBtn" href="#">위로</a> 
+
 <!-- 스크롤확인용 -->
   <div class="absolute pH-1">
     <img src="./img/Vector-1.png" alt="">
@@ -159,12 +159,20 @@
 </div>
 
 <div class="container flex justify-center mx-auto my-10">
-  <footer class="flex justify-around w-full">
-    <a href="pf.html" class="footer-go">
-      <img src="./img/footer pf.png" alt="">
+  <footer class="flex justify-around w-full text-xl">
+    <a href="pf.html" class="relative footer-go footer-pf">
+      <div>
+        <div>VIEW</div>
+        <div>PORTFOLIO</div>
+      </div>
+      <img class="absolute footer-img" src="./img/footer-go.png" alt="">
     </a>
-    <a href="process.html" class="footer-go">
-      <img src="./img/footer pc.png" alt="">
+    <a href="index.html" class="relative footer-go footer-pr">
+      <div>
+        <div>VIEW</div>
+        <div>HOME</div>
+      </div>
+      <img class="absolute footer-img" src="./img/footer-go.png" alt="">
     </a>
   </footer>
 </div>

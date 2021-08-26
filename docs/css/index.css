@@ -13,12 +13,12 @@ header,
 .swiper-slide .addi,
 #fullpage .m-text2,
 #fullpage .m-text3,
-#fullpage .m2-text3 {
+#fullpage .m2-text3, footer {
   font-family: 'Anaheim', sans-serif;
 }
 
 .pf-slider,
-#fullpage {
+#fullpage, #topBtn {
   font-family: 'MapoFlowerIsland';
 }
 
@@ -54,8 +54,43 @@ footer {
   top: 100%;
 }
 
+.footer-pf:hover , .footer-pr:hover {
+  color:#CA8A8B;
+}
+
+.footer-pf:hover img, .footer-pr:hover img {
+  transform: translateX(20%);
+}
+
 .footer-go {
   width: 11%;
+}
+
+.footer-img {
+  top:75%;
+  left:15%;
+  z-index: 1;
+  width:80%;
+  transition: all 0.3s;
+}
+
+
+
+/* 탑버튼 */
+#topBtn{
+	position: fixed;
+	right: 100px; 
+	bottom: 30px;
+  width:60px;
+  height:60px;
+  border:3px solid #ddafaf;
+  background-color: white;
+  border-radius: 50%;
+	display: none;
+	z-index: 9;
+  text-align:center;
+  padding-top:15px;
+  font-weight:bold;
 }
 
 /* 메인페이지 커스텀 */
@@ -428,7 +463,7 @@ footer {
 }
 
 #fullpage .section.active .m2-text3-chart5, #fullpage .section.active .m2-text3-chart6 {
-  width:63%;
+  width:55%;
   height: 23px;
   background-color: #dba7a8;
   animation: chart-5 1.5s;  
@@ -440,12 +475,12 @@ footer {
   }
 
   100% {
-    width:63%;
+    width:55%;
   }
 }
 
 #fullpage .section.active .m2-text3-chart7 {
-  width:60%;
+  width:52%;
   height: 23px;
   background-color: #dba7a8;
   animation: chart-7 1.5s;  
@@ -457,12 +492,12 @@ footer {
   }
 
   100% {
-    width:60%;
+    width:52%;
   }
 }
 
 #fullpage .section.active .m2-text3-chart8 {
-  width:58%;
+  width:48%;
   height: 23px;
   background-color: #dba7a8;
   animation: chart-8 1.5s;  
@@ -474,7 +509,7 @@ footer {
   }
 
   100% {
-    width:58%;
+    width:48%;
   }
 }
 
@@ -486,6 +521,8 @@ footer {
   width:65%;
 }
 
+
+/* 어바웃미 2번째 */
 .m3-text1 {
   position: relative;
 }
@@ -526,12 +563,93 @@ footer {
 }
 
 .m3-card {
-  width:17%;
+  width:220px;
+  height: 250px;
+  border-radius: 10%;
+  box-shadow: 0 0 4px lightgray;
 }
 
-.m3-card2 {
-  width:18%;
+.m3-card:hover {
+  background-color: #7c7c7c;
 }
+
+.m3-card > img {
+  width:67%;
+}
+
+
+.m3-card2 {
+  width:240px;
+  height: 260px;
+  border-radius: 10%;
+  box-shadow: 1px 1px 6px lightgray;
+}
+
+/* 원 차트 */
+.m3-card-1:hover > img, .m3-card-2:hover > img, .m3-card-3:hover > img, .m3-card-4:hover > img, .m3-card-5:hover > img {
+  display: none;
+}
+
+.m3-card-1:hover .flex-wrapper, .m3-card-2:hover .flex-wrapper, .m3-card-3:hover .flex-wrapper, .m3-card-4:hover .flex-wrapper, .m3-card-5:hover .flex-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-wrapper {
+  display: none;
+  flex-flow: row nowrap;
+  color:white;
+}
+
+.single-chart {
+  width:70%;
+  justify-content: space-between ;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 60%;
+  max-height: 200px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.pink .circle {
+  stroke: #dba7a8;
+}
+
+.percentage {
+  fill: white;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
+
+/* 강점 */
+/* .m3-card2-1:hover > img, .m3-card2-2:hover > img, .m3-card2-3:hover > img, .m3-card2-4:hover > img {
+  display: none;
+} */
+
 
 /* 스크롤 확인용 */
 .BH-1 {
@@ -765,8 +883,8 @@ footer {
 }
 
 .pr-circle3 {
-  top: 8.5%;
-  left: 85%;
+  top: 9%;
+  left: 80%;
   animation-name: floating3;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -810,15 +928,15 @@ footer {
 
 @keyframes floating3 {
   0% {
-    top: 8.5%;
+    top: 9.5%;
   }
 
   50% {
-    top: 8.2%;
+    top: 9.2%;
   }
 
   100% {
-    top: 8.5%;
+    top: 9.5%;
   }
 }
 

@@ -7,7 +7,10 @@ $pageCode = "brand";
 require_once "head.php";
 ?>
 
+
 <div class="relative flex justify-center w-full mx-auto div-wrap">
+
+<a id="topBtn" href="#">위로</a> 
 
   <!-- 배경이미지 -->
   <div>

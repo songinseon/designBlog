@@ -134,7 +134,7 @@ require_once "head.php";
         </div>
 
         <div class="flex flex-col w-full h-4/5">
-          <div class="flex flex-col w-full">
+          <div class="flex flex-col w-full mt-2">
             <div class="flex self-center mt-12 mr-12 m2-text3-skill"><img src="./img/me-skill.png" alt=""></div>
             <div class="flex w-full ml-20">
               <div class="mr-12 text-black" style="font-family: 'Anaheim', sans-serif;">
@@ -147,7 +147,7 @@ require_once "head.php";
               <div class="w-full">
                 <div class="my-9 m2-text3-chart5"></div>
                 <div class="my-9 m2-text3-chart6"></div>
-                <div class="my-9 m2-text3-chart6"></div>
+                <div class="my-9 m2-text3-chart3"></div>
                 <div class="my-9 m2-text3-chart7"></div>
                 <div class="my-9 m2-text3-chart8"></div>
               </div>
@@ -176,20 +176,105 @@ require_once "head.php";
           </div>
 
           <div class="flex items-center justify-around h-4/5">
-            <div class="m3-card">
-              <img src="./img/m3-illustrater.png" alt="">
+            <div class="flex items-center justify-center m3-card m3-card-1">
+              <img class="" src="./img/m3-illustrater.png" alt="">
+              <div class="w-full h-full text-center flex-wrapper">
+                로고, 포스터제작<br>
+                일러스트 작업 등
+                <div class="z-50 single-chart m3-card-circle">
+                  <svg viewBox="0 0 36 36" class="circular-chart pink">
+                    <path class="circle-bg" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <path class="circle" stroke-dasharray="70, 100" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <text x="18" y="20.35" class="percentage">70%</text>
+                  </svg>
+                </div>
+              </div>
             </div>
-            <div class="m3-card">
+
+
+            <div class="flex items-center justify-center m3-card m3-card-2">
               <img src="./img/m3-photoshop.png" alt="">
+              <div class="w-full h-full text-center flex-wrapper">
+                로고, 포스터제작<br>
+                포토샵 작업 등
+                <div class="z-50 single-chart m3-card-circle">
+                  <svg viewBox="0 0 36 36" class="circular-chart pink">
+                    <path class="circle-bg" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <path class="circle" stroke-dasharray="70, 100" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <text x="18" y="20.35" class="percentage">70%</text>
+                  </svg>
+                </div>
+              </div>
             </div>
-            <div class="m3-card">
+
+
+
+            <div class="flex items-center justify-center m3-card m3-card-3">
               <img src="./img/m3-figma.png" alt="">
+              <div class="w-full h-full text-center flex-wrapper">
+                웹사이트 UI/UX 디자인<br>
+                컴포넌트, 오토레이아웃을<br>
+                활용한 작업
+                <div class="z-50 single-chart m3-card-circle">
+                  <svg viewBox="0 0 36 36" class="circular-chart pink">
+                    <path class="circle-bg" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <text x="18" y="20.35" class="percentage">80%</text>
+                  </svg>
+                </div>
+              </div>
             </div>
-            <div class="m3-card">
+
+
+            <div class="flex items-center justify-center m3-card m3-card-4">
               <img src="./img/m3-visual.png" alt="">
+              <div class="w-full h-full text-center flex-wrapper">
+                웹사이트 코딩<br>
+                프로세스 페이지 코딩
+                <div class="z-50 single-chart m3-card-circle">
+                  <svg viewBox="0 0 36 36" class="circular-chart pink">
+                    <path class="circle-bg" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <path class="circle" stroke-dasharray="65, 100" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <text x="18" y="20.35" class="percentage">65%</text>
+                  </svg>
+                </div>
+              </div>
             </div>
-            <div class="m3-card">
+
+
+            <div class="flex items-center justify-center m3-card m3-card-5">
               <img src="./img/m3-jquery.png" alt="">
+              <div class="w-full h-full text-center flex-wrapper">
+                간단한 작업을 통한<br>
+                애니메이션 효과
+                <div class="z-50 single-chart m3-card-circle">
+                  <svg viewBox="0 0 36 36" class="circular-chart pink">
+                    <path class="circle-bg" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <text x="18" y="20.35" class="percentage">60%</text>
+                  </svg>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -202,14 +287,17 @@ require_once "head.php";
           </div>
 
           <div class="flex items-center justify-around h-4/5">
-            <div class="m3-card2">
+            <div class="flex items-center justify-center m3-card2 m3-card2-1">
               <img src="./img/m3-clock.png" alt="">
             </div>
-            <div class="m3-card2">
+            <div class="flex items-center justify-center m3-card2 m3-card2-2">
               <img src="./img/m3-thoughful.png" alt="">
             </div>
-            <div class="m3-card2">
-              <img src="./img/m3-tenacity.png" alt="">
+            <div class="flex items-center justify-center m3-card2 m3-card2-3">
+              <img src="./img/m3-potential.png" alt="">
+            </div>
+            <div class="flex items-center justify-center m3-card2 m3-card2-4">
+              <img src="./img/m3-passion.png" alt="">
             </div>
           </div>
         </div>
