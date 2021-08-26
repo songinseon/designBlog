@@ -69,7 +69,7 @@ require_once "head.php";
   </section>
 
 
-  <section class="h-screen section" data-anchor="section-2">
+  <section class="h-screen section w-full" data-anchor="section-2">
     <div class="container flex items-end justify-center w-5/6 mx-auto h-5/6">
 
       <div class="flex flex-col items-center w-2/4 m2-text1 h-5/6 whitespace-nowrap">
@@ -82,7 +82,7 @@ require_once "head.php";
           <div class="mt-8">입니다.</div>
         </div>
 
-        <div class="w-full m2-text3 h-4/6">
+        <div class="w-5/6 m2-text3 h-4/6">
           <div class="flex flex-col items-center justify-around w-full h-1/4">
             <div class="m2-text3-info"><img src="./img/me-information.png" alt=""></div>
 
@@ -97,7 +97,7 @@ require_once "head.php";
           <div class="flex flex-col items-center w-full mt-8 m2-text3-character h-3/4">
             <div class=""><img src="./img/me-character.png" alt=""></div>
 
-            <div class="flex items-center justify-between w-5/6 h-full ml-20">
+            <div class="flex items-center justify-between w-5/6 h-full">
               <div class="flex flex-col justify-between text-black h-5/6">
                 <div class="">PASSION</div>
                 <div class="">SINCERITY</div>
@@ -133,7 +133,7 @@ require_once "head.php";
           </div>
         </div>
 
-        <div class="w-full mt-3 h-4/6">
+        <div class="w-5/6 h-4/6">
           <div class="flex flex-col items-center justify-around w-full h-1/4">
             <div class="me-like1"><img src="./img/me-like.png" alt=""></div>
             <div class="mt-3 me-like2"><img src="./img/me-like1.png" alt=""></div>
@@ -142,7 +142,7 @@ require_once "head.php";
           <div class="flex flex-col items-center w-full mt-8 h-3/4">
             <div class=""><img src="./img/me-skill.png" alt=""></div>
 
-            <div class="flex items-center justify-between w-5/6 h-full ml-20">
+            <div class="flex items-center justify-between w-5/6 h-full">
               <div class="flex flex-col justify-between text-black h-5/6" style="font-family: 'Anaheim', sans-serif;">
                 <div class="">PHOTOSHOP</div>
                 <div class="">ILLUSTRATER</div>
@@ -168,8 +168,8 @@ require_once "head.php";
 
 
   <section class="h-screen section" data-anchor="section-3">
-    <div class="container flex items-end justify-center h-full mx-auto">
-      <div class="flex flex-col items-center w-full h-5/6">
+    <div class="flex items-end justify-center h-full">
+      <div class="container mx-auto flex flex-col items-center w-5/6 h-5/6">
         <div class="w-11/12 h-2/4">
           <div class="flex flex-col items-center text-3xl h-1/5">
             <div class="mt-5 m3-text1">디자인 기술</div>

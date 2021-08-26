@@ -382,6 +382,10 @@ footer {
   position: absolute;
 }
 
+.me-like2 {
+  width:85%;
+}
+
 #fullpage .section.active .m2-text3-chart1 {
   width:80%;
   height: 24px;
@@ -544,7 +548,7 @@ footer {
 
 .m3-card {
   width:15%;
-  height: 70%;
+  height: 80%;
   border-radius: 10%;
   box-shadow: 0 0 4px lightgray;
 }
@@ -560,7 +564,6 @@ footer {
 .m3-card2 > img {
   width:60%;
 }
-
 
 .m3-card2 {
   width:16%;
