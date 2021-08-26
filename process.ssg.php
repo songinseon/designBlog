@@ -8,7 +8,7 @@ require_once "head.php";
 ?>
 
 <!-- 탑버튼 만들기 -->
-<a id="topBtn" href="#">위로</a> 
+<a id="topBtn" href="#">TOP</a> 
 
 <!-- 스크롤확인용 -->
   <div class="absolute pH-1">

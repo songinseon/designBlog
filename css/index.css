@@ -562,11 +562,11 @@ footer {
 }
 
 .m3-card > img {
-  width:60%;
+  width:67%;
 }
 
 .m3-card2 > img {
-  width:60%;
+  width:65%;
 }
 
 .m3-card2 {
@@ -679,7 +679,7 @@ footer {
 
 .m4-stroke1 {
   width:35%;
-  height: 1px;
+  height: 0.5px;
   background-color: #4e4e4e;
   top:65%;
   left:70%;
