@@ -9,6 +9,11 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Miama';
+  src: url('./font/Miama.ttf') format('truetype');
+}
+
 header,
 .swiper-slide .addi,
 #fullpage .m-text2,
@@ -21,7 +26,6 @@ header,
 #fullpage, #topBtn {
   font-family: 'MapoFlowerIsland';
 }
-
 
 /* 상단바, 푸터 */
 .at {
@@ -387,7 +391,7 @@ footer {
 }
 
 #fullpage .section.active .m2-text3-chart1 {
-  width:80%;
+  width:90%;
   height: 24px;
   background-color: #dba7a8;  
   animation: chart-1 1.5s;
@@ -399,12 +403,12 @@ footer {
   }
 
   100% {
-    width:80%;
+    width:90%;
   }
 }
 
 #fullpage .section.active .m2-text3-chart2 {
-  width:84%;
+  width:94%;
   height: 24px;
   background-color: #dba7a8;  
   animation: chart-2 1.5s;
@@ -416,12 +420,12 @@ footer {
   }
 
   100% {
-    width:84%;
+    width:94%;
   }
 }
 
 #fullpage .section.active .m2-text3-chart3 {
-  width:73%;
+  width:83%;
   height: 24px;
   background-color: #dba7a8;
   animation: chart-3 1.5s;  
@@ -433,12 +437,12 @@ footer {
   }
 
   100% {
-    width:73%;
+    width:83%;
   }
 }
 
 #fullpage .section.active .m2-text3-chart4 {
-  width:78%;
+  width:88%;
   height: 24px;
   background-color: #dba7a8;
   animation: chart-4 1.5s;  
@@ -450,12 +454,12 @@ footer {
   }
 
   100% {
-    width:78%;
+    width:88%;
   }
 }
 
 #fullpage .section.active .m2-text3-chart5, #fullpage .section.active .m2-text3-chart6 {
-  width:65%;
+  width:80%;
   height: 24px;
   background-color: #dba7a8;
   animation: chart-5 1.5s;  
@@ -467,12 +471,12 @@ footer {
   }
 
   100% {
-    width:65%;
+    width:80%;
   }
 }
 
 #fullpage .section.active .m2-text3-chart7 {
-  width:62%;
+  width:76%;
   height: 24px;
   background-color: #dba7a8;
   animation: chart-7 1.5s;  
@@ -484,12 +488,12 @@ footer {
   }
 
   100% {
-    width:62%;
+    width:76%;
   }
 }
 
 #fullpage .section.active .m2-text3-chart8 {
-  width:58%;
+  width:75%;
   height: 24px;
   background-color: #dba7a8;
   animation: chart-8 1.5s;  
@@ -501,7 +505,7 @@ footer {
   }
 
   100% {
-    width:58%;
+    width:75%;
   }
 }
 

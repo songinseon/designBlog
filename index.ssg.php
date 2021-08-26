@@ -19,6 +19,7 @@ require_once "head.php";
 
 <div id="fullpage">
   <section class="h-screen section" data-anchor="section-1">
+
     <div class="container flex justify-center h-full mx-auto">
 
       <div class="absolute flex self-center wrapper">
@@ -70,7 +71,7 @@ require_once "head.php";
 
 
   <section class="h-screen section w-full" data-anchor="section-2">
-    <div class="container flex items-end justify-center w-5/6 mx-auto h-5/6">
+    <div class="container flex items-end w-5/6 mx-auto h-5/6 mb-10">
 
       <div class="flex flex-col items-center w-2/4 m2-text1 h-5/6 whitespace-nowrap">
         <div class="flex items-center justify-around w-5/6 text-4xl h-2/6">
@@ -98,7 +99,7 @@ require_once "head.php";
             <div class=""><img src="./img/me-character.png" alt=""></div>
 
             <div class="flex items-center justify-between w-5/6 h-full">
-              <div class="flex flex-col justify-between text-black h-5/6">
+              <div class="flex flex-col justify-between text-black h-5/6 ml-4">
                 <div class="">PASSION</div>
                 <div class="">SINCERITY</div>
                 <div class="">CHALLENGE</div>
@@ -119,7 +120,7 @@ require_once "head.php";
         </div>
       </div>
 
-      <div class="flex flex-col justify-center w-2/4 m2-text2 h-5/6">
+      <div class="flex flex-col justify-center items-center w-2/4 m2-text2 h-5/6">
         <div class="flex justify-center w-full h-2/6">
           <div class="flex flex-col justify-center w-4/6 h-full text-2xl whitespace-nowrap">
             <ul class="m2-text2-list">
@@ -133,7 +134,7 @@ require_once "head.php";
           </div>
         </div>
 
-        <div class="w-5/6 h-4/6">
+        <div class="w-5/6 h-4/6 mt-3">
           <div class="flex flex-col items-center justify-around w-full h-1/4">
             <div class="me-like1"><img src="./img/me-like.png" alt=""></div>
             <div class="mt-3 me-like2"><img src="./img/me-like1.png" alt=""></div>
@@ -306,9 +307,8 @@ require_once "head.php";
     </div>
   </section>
 
-
-  <section class="section" data-anchor="section-4">
-    <div class="flex justify-center">
+  <section class="h-screen section" data-anchor="section-4">
+    <div class="flex items-end justify-center h-full">
     </div>
   </section>
 
