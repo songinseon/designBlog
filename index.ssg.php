@@ -87,7 +87,7 @@ require_once "head.php";
           <div class="flex flex-col items-center justify-around w-full h-1/4">
             <div class="m2-text3-info"><img src="./img/me-information.png" alt=""></div>
 
-            <div class="flex justify-around w-full">
+            <div class="flex justify-between w-5/6">
               <div class="flex">NAME<div class="ml-8" style="font-family: 'MapoFlowerIsland';">송 인 선</div>
               </div>
               <div class="flex">E-MAIL<div class="ml-8">songsun95@naver.com</div>
@@ -99,7 +99,7 @@ require_once "head.php";
             <div class=""><img src="./img/me-character.png" alt=""></div>
 
             <div class="flex items-center justify-between w-5/6 h-full">
-              <div class="flex flex-col justify-between text-black h-5/6 ml-4">
+              <div class="flex flex-col justify-between text-black h-5/6">
                 <div class="">PASSION</div>
                 <div class="">SINCERITY</div>
                 <div class="">CHALLENGE</div>
@@ -307,8 +307,66 @@ require_once "head.php";
     </div>
   </section>
 
-  <section class="h-screen section" data-anchor="section-4">
-    <div class="flex items-end justify-center h-full">
+  <section class="h-screen w-full section" data-anchor="section-4">
+    <div class="m4 flex items-end justify-center justify-center h-full">
+      <div class="flex container mx-auto flex-col w-5/6 h-5/6 items-center">
+        <div class="w-11/12 h-1/4">
+          <div class="flex flex-col items-center text-3xl h-full justify-center">
+            <div class="mt-5 text-lg m4-text">Design Sun</div>
+            <div class="m4-text1">CONTACT</div>
+            <div class="m4-stroke"></div>
+          </div>
+        </div>
+
+
+        <div class="form w-8/12 h-3/4 flex">
+          <div class="w-2/4 h-full ">
+            <div class="flex flex-col items-center justify-center w-full h-2/4 text-3xl relative">
+              <div>저와 함께 나누고싶은</div>
+              <div class="flex">
+                <div class="m4-text2">대화</div>
+                <div>가 있으시다면</div>
+              </div>
+              <div class="m4-stroke1 absolute"></div>
+            </div>
+
+            <div class="w-full h-2/4">
+              <div class="flex justify-around w-4/5 text-2xl relative items-center">
+                <a href="pf.ssg.php" class="relative m4-pr-text">
+                  <div>
+                    <div>VIEW</div>
+                    <div>PORTFOLIO</div>
+                  </div>
+                  <img class="absolute m4-pr-img" src="./img/footer-go.png" alt="">
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="w-2/4 h-full relative">
+            <div class="m4-form h-full w-full items-center justify-center flex border-red-300">
+              <div class="form-img absolute h-full">
+                <img src="./img/m4-form.png" alt="">
+              </div>
+              <form class="h-5/6 w-10/12 flex flex-col justify-around" action="https://formspree.io/f/mqkwgrbv"
+                target="_blank" onsubmit="sendEmailForm(this); return false;" method="POST">
+                <div class="m4-form-input w-full justify-center items-center flex">
+                  <input class="w-full h-full" type="email" name="_replyto" placeholder="YOUR E-MAIL">
+                </div>
+                <div class="m4-form-message w-full">
+                  <textarea class="w-full h-full" name="message" placeholder="내용..."></textarea>
+                </div>
+                <!-- your other form fields go here -->
+                <div class="m4-form-submit w-full">
+                  <button class="w-full h-full" type="submit">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
 

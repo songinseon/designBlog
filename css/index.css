@@ -18,7 +18,7 @@ header,
 .swiper-slide .addi,
 #fullpage .m-text2,
 #fullpage .m-text3,
-#fullpage .m2-text3, footer {
+#fullpage .m2-text3, #fullpage .m4-text, .m4-pr-text , footer {
   font-family: 'Anaheim', sans-serif;
 }
 
@@ -636,12 +636,91 @@ footer {
   text-anchor: middle;
 }
 
-/* 강점 */
-/* .m3-card2-1:hover > img, .m3-card2-2:hover > img, .m3-card2-3:hover > img, .m3-card2-4:hover > img {
-  display: none;
-} */
+/* 어바웃미 3번째 */
+
+.m4-text1 {
+  position: relative;
+}
+
+.m4-text1::after {
+  content: "";
+  width: 100%;
+  height: 6px;
+  top: auto;
+  bottom: 5px;
+  left: 0;
+  background-color: #990003;
+  opacity: 25%;
+  position: absolute;
+}
+
+.m4-text2 {
+  position: relative;
+}
+
+.m4-text2::after {
+  content: "";
+  width: 100%;
+  height: 6px;
+  top: auto;
+  bottom: 5px;
+  left: 0;
+  background-color: #990003;
+  opacity: 25%;
+  position: absolute;
+}
+
+.m4-stroke {
+  width:1.5%;
+  height: 1px;
+  background-color: #4e4e4e;
+  margin-top: 15px;
+}
+
+.m4-stroke1 {
+  width:35%;
+  height: 1px;
+  background-color: #4e4e4e;
+  top:65%;
+  left:70%;
+}
+
+.m4-pr-text {
+  width:40%;
+}
+
+.m4-pr-text:hover > * {
+  color:#CA8A8B;
+}
+
+.m4-pr-text .m4-pr-img {
+  transition: all 1s;
+}
+
+.m4-pr-text:hover .m4-pr-img {
+  transform: translateX(20%);
+}
+
+.form-img {
+  z-index: -1;
+  top:3%;
+}
+
+.m4-form-input {
+  height: 8%;
+  border:0.5px solid lightgray ;
+}
 
 
+.m4-form-message {
+  height: 64%;
+  border:0.5px solid lightgray ;
+}
+
+.m4-form-submit {
+  height: 8%;
+  border:0.5px solid lightgray ;
+}
 /* 스크롤 확인용 */
 .BH-1 {
   top: 18%;
