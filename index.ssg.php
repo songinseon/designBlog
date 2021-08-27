@@ -345,7 +345,7 @@ require_once "head.php";
           </div>
 
           <div class="w-2/4 h-full relative">
-            <div class="m4-form h-full w-full items-center justify-center flex border-red-300">
+            <div class="m4-form h-full w-full items-center justify-center flex">
               <div class="form-img absolute h-full">
                 <img class="h-full" src="./img/m4-form.png" alt="">
               </div>
@@ -355,7 +355,7 @@ require_once "head.php";
                   <input class="w-full h-full" type="email" name="_replyto" placeholder="YOUR E-MAIL">
                 </div>
                 <div class="m4-form-message w-full">
-                  <textarea class="w-full h-full" name="message" placeholder="CONTENT"></textarea>
+                  <textarea class="w-full h-full" name="message" style="resize: none;" placeholder="CONTENT"></textarea>
                 </div>
                 <!-- your other form fields go here -->
                 <div class="m4-form-submit w-full">
