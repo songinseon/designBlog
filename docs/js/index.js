@@ -92,7 +92,7 @@ function Play_AnimationInit() {
     opacity: 1,
     x: 0,
     duration: 1,
-    delay: 0.5,
+    delay: 0.3,
     scrollTrigger: {
       trigger: '.BH-1',
       start: '-10% 0%',
@@ -108,7 +108,7 @@ function Play_AnimationInit() {
     opacity: 1,
     x: 0,
     duration: 1,
-    delay: 1,
+    delay: 0.6,
     scrollTrigger: {
       trigger: '.BH-1',
       start: '-10% 0%',
