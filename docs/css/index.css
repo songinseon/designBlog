@@ -87,21 +87,14 @@ footer {
 	bottom: 30px;
   width:60px;
   height:60px;
-  border:3px solid #ddafaf;
-  background-color: white;
   border-radius: 50%;
 	display: none;
 	z-index: 9;
   text-align:center;
   padding-top:15px;
   font-weight:bold;
-  transition: all 0.2s;
 }
 
-#topBtn:hover {
-  background-color: #ddafaf;
-  color:white;
-}
 
 /* 메인페이지 커스텀 */
 #fullpage .m-text1>div:first-child div {

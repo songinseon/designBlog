@@ -33,12 +33,12 @@ function sendEmailForm(form) {
 // 탑버튼
 $(function() {
 	$(window).scroll(function() { 
-		if ($(this).scrollTop() > 400) { 
+		if ($(this).scrollTop() > 300) { 
 			$('#topBtn').fadeIn(); } 
 		else { $('#topBtn').fadeOut(); }
 	}); 
 	$("#topBtn").click(function() { 
-  $('html, body').animate({ scrollTop : 0  }, 400); 
+  $('html, body').animate({ scrollTop : 0  }, 300); 
     return false; });
 });
 
