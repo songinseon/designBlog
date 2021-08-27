@@ -95,6 +95,12 @@ footer {
   text-align:center;
   padding-top:15px;
   font-weight:bold;
+  transition: all 0.2s;
+}
+
+#topBtn:hover {
+  background-color: #ddafaf;
+  color:white;
 }
 
 /* 메인페이지 커스텀 */
