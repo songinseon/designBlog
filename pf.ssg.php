@@ -83,6 +83,10 @@ require_once "head.php";
                 <div class="text-2xl">PARTICIPATION</div>
                 <div class="my-2 text-base font-light ">기획 100%, 디자인 100%</div>
               </div>
+              <div class="mt-7 font-normal">
+                <a class="text-base p-2" href="">기획</a>
+                <a class="text-base p-2 ml-2" href="">디자인</a>
+              </div>
             </div>
             <img src="./img/pf-1.png" alt="">
           </div>
@@ -103,6 +107,11 @@ require_once "head.php";
               <div class="my-5">
                 <div class="text-2xl">PARTICIPATION</div>
                 <div class="my-2 text-base font-light ">기획 100%, 디자인 100%, 퍼블리싱100%</div>
+              </div>
+              <div class="mt-7 font-normal">
+                <a class="text-base p-2" href="">기획</a>
+                <a class="text-base p-2 ml-2" href="">디자인</a>
+                <a class="text-base p-2 ml-2" href="">퍼블리싱</a>
               </div>
             </div>
             <img src="./img/pf-2.png" alt="">
@@ -125,6 +134,9 @@ require_once "head.php";
                 <div class="text-2xl">PARTICIPATION</div>
                 <div class="my-2 text-base font-light ">퍼블리싱 100%</div>
               </div>
+              <div class="mt-7 font-normal">
+                <a class="text-base p-2 ml-2" href="">디자인</a>
+              </div>
             </div>
             <img src="./img/pf-3.png" alt="">
           </div>
@@ -146,6 +158,11 @@ require_once "head.php";
                 <div class="text-2xl">PARTICIPATION</div>
                 <div class="my-2 text-base font-light ">기획100%, 디자인 100%, 퍼블리싱 100%</div>
               </div>
+              <div class="mt-7 font-normal">
+                <a class="text-base p-2" href="">기획</a>
+                <a class="text-base p-2 ml-2" href="">디자인</a>
+                <a class="text-base p-2 ml-2" href="">퍼블리싱</a>
+              </div>
             </div>
             <img src="./img/pf-4.png" alt="">
           </div>
@@ -166,6 +183,9 @@ require_once "head.php";
               <div class="my-5">
                 <div class="text-2xl">PARTICIPATION</div>
                 <div class="my-2 text-base font-light ">퍼블리싱 100%</div>
+              </div>
+              <div class="mt-7 font-normal">
+                <a class="text-base p-2" href="">퍼블리싱</a>
               </div>
             </div>
             <img src="./img/pf-5.png" alt="">

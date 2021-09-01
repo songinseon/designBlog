@@ -209,9 +209,9 @@ footer {
 }
 
 .m-sprout {
-  width: 6.3%;
-  margin-top: 380px;
-  margin-left: 200px;
+  width: 5%;
+  margin-top: 370px;
+  margin-left: 180px;
   z-index: 1;
 }
 
@@ -819,6 +819,10 @@ footer {
   transform: scale(1.1);
 }
 
+.pf-slider .swiper-slide a {
+  transition: all 0.3s;
+}
+
 .pf-slider .swiper-slide a:hover {
   color: #CA8A8B;
   font-weight: bold;
@@ -845,6 +849,11 @@ footer {
   font-weight: bold;
   opacity: 0;
   z-index: 3;
+}
+
+.swiper-slide .addi a {
+  border-radius: 20px;
+  border:2px solid white;
 }
 
 /* 브랜드 커스텀 */
