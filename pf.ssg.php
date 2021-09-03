@@ -84,7 +84,7 @@ require_once "head.php";
                 <div class="my-2 text-base font-light ">기획 100%, 디자인 100%</div>
               </div>
               <div class="mt-7 font-normal text-xs">
-                <a class="p-2" href="https://notefolio.net/designsun/248859">기획</a>
+                <a class="p-2" href="https://notefolio.net/designsun/248859" target="blank">기획</a>
                 <a class="p-2 ml-2" href="https://i.postimg.cc/NFmfRwKY/2.png" data-lightbox="image-1" data-title="예스24 사이트 리디자인">디자인</a>
               </div>
             </div>
@@ -109,16 +109,16 @@ require_once "head.php";
                 <div class="my-2 text-base font-light ">기획 100%, 디자인 100%, 퍼블리싱100%</div>
               </div>
               <div class="mt-7 font-normal text-xs">
-                <a class="p-2" href="https://notefolio.net/designsun/257872">기획</a>
-                <a class="p-2 ml-2" href="https://www.figma.com/proto/Tug2hGnQfWUUMyfXSTbqjN/DAY-BRUSH---1%EC%A1%B0(%EA%B9%80%EB%AF%BC%EC%A7%80%2C-%EC%86%A1%EC%9D%B8%EC%84%A0)%2C-https%3A%2F%2Fto2.kr%2FcPL?page-id=117%3A453&node-id=129%3A1466&viewport=287%2C617%2C0.5898043513298035&scaling=min-zoom">디자인</a>
-                <a class="p-2 ml-2" href="https://songinseon.github.io/project/pf/work/">퍼블리싱</a>
+                <a class="p-2" href="https://notefolio.net/designsun/257872" target="blank">기획</a>
+                <a class="p-2 ml-2" href="https://www.figma.com/proto/Tug2hGnQfWUUMyfXSTbqjN/DAY-BRUSH---1%EC%A1%B0(%EA%B9%80%EB%AF%BC%EC%A7%80%2C-%EC%86%A1%EC%9D%B8%EC%84%A0)%2C-https%3A%2F%2Fto2.kr%2FcPL?page-id=117%3A453&node-id=129%3A1466&viewport=287%2C617%2C0.5898043513298035&scaling=min-zoom" target="blank">디자인</a>
+                <a class="p-2 ml-2" href="https://songinseon.github.io/project/pf/work/" target="blank">퍼블리싱</a>
               </div>
             </div>
             <img src="./img/pf-2.png" alt="">
           </div>
           <div class="my-8">
             <div class="text-2xl">APP UI/UX</div>
-            <a class="my-2 text-base" href="https://songinseon.github.io/project/pf/work/">VIEW MORE</a>
+            <a class="my-2 text-base" href="https://songinseon.github.io/project/pf/work/" target="blank">VIEW MORE</a>
           </div>
         </div>
 
@@ -135,14 +135,14 @@ require_once "head.php";
                 <div class="my-2 text-base font-light ">퍼블리싱 100%</div>
               </div>
               <div class="mt-7 font-normal text-xs">
-                <a class="p-2 ml-2" href="https://codepen.io/songinseon/full/YzVxwRr">퍼블리싱</a>
+                <a class="p-2 ml-2" href="https://codepen.io/songinseon/full/YzVxwRr" target="blank">퍼블리싱</a>
               </div>
             </div>
             <img src="./img/pf-3.png" alt="">
           </div>
           <div class="my-8">
             <div class="text-2xl">웹사이트 PUBLISHING</div>
-            <a class="my-2 text-base" href="https://codepen.io/songinseon/full/YzVxwRr">VIEW MORE</a>
+            <a class="my-2 text-base" href="https://codepen.io/songinseon/full/YzVxwRr" target="blank">VIEW MORE</a>
           </div>
         </div>
 
@@ -159,8 +159,8 @@ require_once "head.php";
                 <div class="my-2 text-base font-light ">기획100%, 디자인 100%, 퍼블리싱 100%</div>
               </div>
               <div class="mt-7 font-normal text-xs">
-                <a class="p-2" href="https://codepen.io/songinseon/full/OJmwmNY">기획</a>
-                <a class="p-2 ml-2" href="https://www.figma.com/file/mluywZpokG45gLjARK0NZk/PERSONAL-WEB-BLOG">디자인</a>
+                <a class="p-2" href="https://codepen.io/songinseon/full/OJmwmNY" target="blank">기획</a>
+                <a class="p-2 ml-2" href="https://www.figma.com/file/mluywZpokG45gLjARK0NZk/PERSONAL-WEB-BLOG" target="blank">디자인</a>
                 <a class="p-2 ml-2" href="https://songinseon.github.io/designBlog/process.html">퍼블리싱</a>
               </div>
             </div>
@@ -185,14 +185,14 @@ require_once "head.php";
                 <div class="my-2 text-base font-light ">퍼블리싱 100%</div>
               </div>
               <div class="mt-7 font-normal text-xs">
-                <a class="p-2" href="https://codepen.io/songinseon/full/BaWgMeG">퍼블리싱</a>
+                <a class="p-2" href="https://codepen.io/songinseon/full/BaWgMeG" target="blank">퍼블리싱</a>
               </div>
             </div>
             <img src="./img/pf-5.png" alt="">
           </div>
           <div class="my-8">
             <div class="text-2xl">웹사이트 PUBLISHING</div>
-            <a class="my-2 text-base" href="https://codepen.io/songinseon/full/BaWgMeG">VIEW MORE</a>
+            <a class="my-2 text-base" href="https://codepen.io/songinseon/full/BaWgMeG" target="blank">VIEW MORE</a>
           </div>
         </div>
       </div>

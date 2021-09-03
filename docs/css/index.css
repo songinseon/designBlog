@@ -856,6 +856,10 @@ footer {
   border-radius: 5px;
 }
 
+.lb-number, .lb-prev, .lb-next {
+  display:none !important;
+}
+
 /* 브랜드 커스텀 */
 
 .logo-write>img {
