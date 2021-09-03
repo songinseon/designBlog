@@ -1,4 +1,6 @@
-$('html').niceScroll();
+$("body").niceScroll({
+  scrollspeed: 5
+});
 
 function Fullpage__init() {
   new fullpage('#fullpage', {
