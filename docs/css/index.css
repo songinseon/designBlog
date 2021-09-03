@@ -852,8 +852,8 @@ footer {
 }
 
 .swiper-slide .addi a {
-  border-radius: 20px;
-  border:2px solid white;
+  border:1px solid white;
+  border-radius: 5px;
 }
 
 /* 브랜드 커스텀 */
