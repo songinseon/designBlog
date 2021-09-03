@@ -33,23 +33,24 @@
 <body>
 
   <!-- 상단바 -->
-  <div class="flex flex-col justify-center w-full">
+  <div class="">
 
-    <header class="container h-32 mx-auto top-bar">
+    <div class="wrap overflow-x-hidden flex flex-col justify-center items-center">
+      <header class="container h-32 mx-auto top-bar">
 
-      <div class="flex items-end justify-around h-full">
-        <!-- 로고 -->
-        <a href="index.ssg.php" class="<?=$pageCode == "home" ? "at" : ""?> logo mr-32">
-          <img src="./img/logo.png" alt="">
-        </a>
+        <div class="flex items-end justify-around h-full">
+          <!-- 로고 -->
+          <a href="index.ssg.php" class="<?=$pageCode == "home" ? "at" : ""?> logo mr-32">
+            <img src="./img/logo.png" alt="">
+          </a>
 
-        <!-- 상단 메뉴 -->
-        <nav class="text-xl tracking-wider whitespace-nowrap">
-          <a class="<?=$pageCode == "home" ? "at" : ""?> ml-36" href="index.ssg.php#section-2">ME</a>
-          <a class="<?=$pageCode == "brand" ? "at" : ""?> ml-36" href="brand.ssg.php">BRANDING</a>
-          <a class="<?=$pageCode == "pf" ? "at" : ""?> ml-36" href="pf.ssg.php">PORTFOLIO</a>
-          <a class="<?=$pageCode == "process" ? "at" : ""?> ml-36" href="process.ssg.php">PROCESS</a>
-        </nav>
+          <!-- 상단 메뉴 -->
+          <nav class="text-xl tracking-wider whitespace-nowrap">
+            <a class="<?=$pageCode == "home" ? "at" : ""?> ml-36" href="index.ssg.php#section-2">ME</a>
+            <a class="<?=$pageCode == "brand" ? "at" : ""?> ml-36" href="brand.ssg.php">BRANDING</a>
+            <a class="<?=$pageCode == "pf" ? "at" : ""?> ml-36" href="pf.ssg.php">PORTFOLIO</a>
+            <a class="<?=$pageCode == "process" ? "at" : ""?> ml-36" href="process.ssg.php">PROCESS</a>
+          </nav>
 
-      </div>
-    </header>
+        </div>
+      </header>

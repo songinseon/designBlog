@@ -219,6 +219,30 @@ require_once "head.php";
             <a class="my-2 text-base" href="https://i.postimg.cc/j50g4ZrH/1.png" data-lightbox="image-2" data-title="노브랜드버거 사이트 리디자인">VIEW MORE</a>
           </div>
         </div>
+
+        <div class="flex flex-col swiper-slide">
+          <div>
+            <div class="bg"></div>
+            <div class="text-white addi whitespace-nowrap">
+              <div>
+                <div class="text-2xl">PROJECT</div>
+                <div class="my-2 text-base font-light">VAROH 사이트 퍼블리싱</div>
+              </div>
+              <div class="my-5">
+                <div class="text-2xl">PARTICIPATION</div>
+                <div class="my-2 text-base font-light ">퍼블리싱 100%</div>
+              </div>
+              <div class="mt-7 font-normal text-xs">
+                <a class="p-2" href="https://codepen.io/songinseon/full/vYxzmve" target="blank">퍼블리싱</a>
+              </div>
+            </div>
+            <img src="./img/pf-7.png" alt="">
+          </div>
+          <div class="my-8">
+            <div class="text-2xl">웹사이트 PUBLISHING</div>
+            <a class="my-2 text-base" href="https://codepen.io/songinseon/full/vYxzmve" target="blank">VIEW MORE</a>
+          </div>
+        </div>
       </div>
     </div>
 

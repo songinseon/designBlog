@@ -9,15 +9,13 @@ require_once "head.php";
 
 <style>
   header {
-    background-color: ;
     position: fixed;
     z-index: 50;
     top: 0;
-    align-self: center;
   }
 </style>
 
-<div id="fullpage">
+<div id="fullpage" class="overflow-y-hidden">
   <section class="h-screen section" data-anchor="section-1">
 
     <div class="container flex justify-center h-full mx-auto">
