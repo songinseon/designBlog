@@ -233,14 +233,14 @@ require_once "head.php";
                 <div class="my-2 text-base font-light ">퍼블리싱 100%</div>
               </div>
               <div class="mt-7 font-normal text-xs">
-                <a class="p-2" href="https://github.com/songinseon/sitepublishing-3" target="blank">퍼블리싱</a>
+                <a class="p-2" href="https://songinseon.github.io/sitepublishing-3/" target="blank">퍼블리싱</a>
               </div>
             </div>
             <img src="./img/pf-7.png" alt="">
           </div>
           <div class="my-8">
             <div class="text-2xl">웹사이트 PUBLISHING</div>
-            <a class="my-2 text-base" href="https://github.com/songinseon/sitepublishing-3" target="blank">VIEW MORE</a>
+            <a class="my-2 text-base" href="https://songinseon.github.io/sitepublishing-3/" target="blank">VIEW MORE</a>
           </div>
         </div>
       </div>
