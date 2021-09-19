@@ -119,7 +119,7 @@ function Play_AnimationInit() {
     duration: 1.1
   });
 
-  gsap.fromTo('.logo-sun, .logo-sprout, .logo-name', {
+  gsap.fromTo('.logo-sun', {
     opacity: 0,
     y: 70,
   }, {
@@ -132,6 +132,37 @@ function Play_AnimationInit() {
     },
     duration: 1
   });
+
+  gsap.fromTo('.logo-sprout', {
+    opacity: 0,
+    y: 70,
+  }, {
+    opacity: 1,
+    y: 0,
+    delay: 0.3,
+    scrollTrigger: {
+      trigger: '.BH-2',
+      start: '-10% 0%',
+      end: '100% 30%'
+    },
+    duration: 1
+  });
+
+  gsap.fromTo('.logo-name', {
+    opacity: 0,
+    y: 70,
+  }, {
+    opacity: 1,
+    y: 0,
+    delay: 0.6,
+    scrollTrigger: {
+      trigger: '.BH-2',
+      start: '-10% 0%',
+      end: '100% 30%'
+    },
+    duration: 1
+  });
+
 
   gsap.fromTo('.logo-color2', {
     opacity: 0,

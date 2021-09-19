@@ -37,9 +37,9 @@ require_once "head.php";
     <img src="./img/logo-write.png" alt="">
   </div>
 
-  <div class="absolute logo-ex">
+  <!-- <div class="absolute logo-ex">
     <img src="./img/logo-ex.png" alt="">
-  </div>
+  </div> -->
 
   <div class="absolute logo-ex1">
     <img src="./img/logo-ex1.png" alt="">
