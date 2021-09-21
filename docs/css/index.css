@@ -363,11 +363,11 @@ footer {
   width: 17%;
 }
 
-.m2-text2-list>li::before {
+/* .m2-text2-list>li::before {
   content: "•";
   display: inline-block;
   width: 1em;
-}
+} */
 
 .m2-text2-sun {
   position: relative;
@@ -913,22 +913,22 @@ footer {
 
 .logo-color1 {
   top: 74%;
-  left: 15.5%;
-  width: 24%;
+  left: 17.5%;
+  width: 22.5%;
   z-index: 2;
 }
 
 .logo-color2 {
   top: 74%;
-  left: 38.5%;
-  width: 24%;
+  left: 39.5%;
+  width: 22.5%;
   z-index: 1;
 }
 
 .logo-color3 {
   top: 74%;
   left: 61.5%;
-  width: 24%;
+  width: 22.5%;
 }
 
 /* 프로세스 커스텀 */
