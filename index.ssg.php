@@ -29,7 +29,7 @@ require_once "head.php";
       </div>
 
       <div class="relative flex items-end self-end w-2/4 h-full m-text2">
-        <a href="pf.ssg.php" class="relative flex flex-col mb-32 text-xl main-prtext ml-28">
+        <a href="pf.ssg.php" class="relative flex flex-col mb-32 text-xl main-prtext ml-6">
           <div>VIEW</div>
           <div>PORTFOLIO</div>
           <div class="absolute main-prarrow">
@@ -56,7 +56,7 @@ require_once "head.php";
           <div class="mt-6 text-4xl ml-14">입니다.</div>
         </div>
 
-        <a href="#section-2" class="relative flex flex-col items-end mb-16 mr-20 text-xl main-metext m-text3">
+        <a href="#section-2" class="relative flex flex-col items-end mb-16 -mr-2 text-xl main-metext m-text3">
           <div>VIEW</div>
           <div>ABOUT ME</div>
           <div class="absolute ml-2 main-mearrow">
@@ -169,13 +169,13 @@ require_once "head.php";
   <section class="h-screen section" data-anchor="section-3">
     <div class="flex items-end justify-center h-full">
       <div class="container mx-auto flex flex-col items-center w-5/6 h-5/6">
-        <div class="w-11/12 h-2/4">
+        <div class="w-full h-2/4">
           <div class="flex flex-col items-center text-3xl h-1/5">
             <div class="mt-5 m3-text1">디자인 기술</div>
             <div class="m3-stroke"></div>
           </div>
 
-          <div class="flex items-center justify-around h-4/5">
+          <div class="flex items-center justify-between h-4/5">
             <div class="flex items-center justify-center m3-card m3-card-1">
               <img class="" src="./img/m3-illustrater.png" alt="">
               <div class="w-full h-full text-center flex-wrapper">

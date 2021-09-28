@@ -74,13 +74,13 @@ require_once "head.php";
     <img src="./img/process-overview.png" alt="">
   </div>
 
-  <div class="absolute pr-font1">
+  <!-- <div class="absolute pr-font1">
     <img src="./img/process-font1.png" alt="">
   </div>
 
   <div class="absolute pr-font2">
     <img src="./img/process-font2.png" alt="">
-  </div>
+  </div> -->
 
   <div class="absolute pr-color1">
     <img src="./img/pr-color1.png" alt="">
