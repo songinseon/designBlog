@@ -314,6 +314,7 @@ footer {
   font-size: 42px;
 }
 
+
 #fullpage .m2-text1>div:first-child div div:last-child::after {
   content: "";
   width: 100%;
@@ -336,14 +337,18 @@ footer {
   color: white;
 }
 
+.m2-text1-name {
+  font-size: 36px ;
+}
+
 #fullpage .m2-text1>div:first-child>div:nth-child(2)::before {
   content:"{}";
-  letter-spacing: 124px;
+  letter-spacing: 160px;
   color: black;
   position: absolute;
   top: 0;
   left: 0;
-  margin-left: -22px;
+  margin-left: -32px;
 }
 
 #fullpage .section.active .m2-text1>div:first-child>div:nth-child(2)::after {
@@ -579,7 +584,7 @@ footer {
 }
 
 .m3-card > img {
-  width:65%;
+  width:66%;
 }
 
 .m3-card2 > img {
