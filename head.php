@@ -47,9 +47,9 @@
           <!-- 상단 메뉴 -->
           <nav class="text-xl tracking-wider justify-around whitespace-nowrap">
             <a class="<?=$pageCode == "home" ? "at" : ""?>" href="index.ssg.php#section-2">ME</a>
-            <a class="<?=$pageCode == "brand" ? "at" : ""?> ml-28" href="brand.ssg.php">BRANDING</a>
-            <a class="<?=$pageCode == "pf" ? "at" : ""?> ml-28" href="pf.ssg.php">PORTFOLIO</a>
-            <a class="<?=$pageCode == "process" ? "at" : ""?> ml-28" href="process.ssg.php">PROCESS</a>
+            <a class="<?=$pageCode == "brand" ? "at" : ""?>" style="margin-left:108px;" href="brand.ssg.php">BRANDING</a>
+            <a class="<?=$pageCode == "pf" ? "at" : ""?>" style="margin-left:108px;" href="pf.ssg.php">PORTFOLIO</a>
+            <a class="<?=$pageCode == "process" ? "at" : ""?>" style="margin-left:108px;" href="process.ssg.php">PROCESS</a>
           </nav>
 
         </div>

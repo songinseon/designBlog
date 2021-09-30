@@ -302,6 +302,14 @@ footer {
   height:87%;
 }
 
+.about-2-1 {
+  height: 28%;
+}
+
+.about-2-2 {
+  height: 72%;
+}
+
 .aboutme_text1 {
   font-size: 42px;
 }
@@ -562,6 +570,7 @@ footer {
   width:14.4%;
   height: 80%;
   border-radius: 10%;
+  border: 0.1px solid rgb(235, 235, 235);
   box-shadow: 0 0 4px lightgray;
 }
 
@@ -581,6 +590,7 @@ footer {
   width:16%;
   height: 75%;
   border-radius: 10%;
+  border: 0.1px solid rgb(235, 235, 235);
   box-shadow: 1px 1px 6px lightgray;
 }
 
