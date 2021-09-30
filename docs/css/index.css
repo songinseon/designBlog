@@ -297,13 +297,22 @@ footer {
 }
 
 /* 어바웃미 */
+
+.about-2 {
+  height:87%;
+}
+
+.aboutme_text1 {
+  font-size: 42px;
+}
+
 #fullpage .m2-text1>div:first-child div div:last-child::after {
   content: "";
   width: 100%;
   height: 7px;
   background-color: #990003;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   left: 0;
   margin-bottom: 5px;
   opacity: 20%;
@@ -386,7 +395,7 @@ footer {
 }
 
 .me-like2 {
-  width:85%;
+  width:80%;
 }
 
 #fullpage .section.active .m2-text3-chart1 {
@@ -550,7 +559,7 @@ footer {
 }
 
 .m3-card {
-  width:15%;
+  width:14.4%;
   height: 80%;
   border-radius: 10%;
   box-shadow: 0 0 4px lightgray;
@@ -561,11 +570,11 @@ footer {
 }
 
 .m3-card > img {
-  width:67%;
+  width:65%;
 }
 
 .m3-card2 > img {
-  width:65%;
+  width:60%;
 }
 
 .m3-card2 {
@@ -781,13 +790,13 @@ footer {
 .pf-slider .swiper-button-next {
   top: 50%;
   right: 50%;
-  margin-right: -730px;
+  margin-right: -750px;
 }
 
 .pf-slider .swiper-button-prev {
   top: 50%;
   left: 50%;
-  margin-left: -730px;
+  margin-left: -740px;
 }
 
 .pf-slider .swiper-button-next::after,
@@ -867,68 +876,68 @@ footer {
 }
 
 .logo-write {
-  top: 14.8%;
+  top: 17%;
   left: 50%;
   width: 30%;
 }
 
 .logo-ex1 {
-  top: 34%;
+  top: 36.5%;
   left: 17%;
   width: 7%;
   opacity: 0;
 }
 
 .logo-ex2 {
-  top: 34%;
+  top: 36.5%;
   left: 27%;
   width: 7%;
   opacity: 0;
 }
 
 .logo-ex3 {
-  top: 34%;
+  top: 36.5%;
   left: 38%;
   width: 7%;
   opacity: 0;
 }
 
 .logo-sun {
-  top: 50%;
+  top: 52%;
   left: 24%;
   width: 15%;
 }
 
 .logo-sprout {
-  top: 50%;
+  top: 52%;
   left: 44%;
   width: 15%;
 }
 
 .logo-name {
-  top: 50%;
+  top: 52%;
   left: 64%;
   width: 15%;
 }
 
 .logo-color1 {
-  top: 74%;
+  top: 76.5%;
   left: 17.5%;
-  width: 22.5%;
+  width: 21.5%;
   z-index: 2;
 }
 
 .logo-color2 {
-  top: 74%;
-  left: 39.5%;
-  width: 22.5%;
+  top: 76.5%;
+  left: 38.8%;
+  width: 21.5%;
   z-index: 1;
 }
 
 .logo-color3 {
-  top: 74%;
-  left: 61.5%;
-  width: 22.5%;
+  top: 76.5%;
+  left: 60.1%;
+  width: 21.5%;
 }
 
 /* 프로세스 커스텀 */

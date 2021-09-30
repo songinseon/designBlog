@@ -47,7 +47,7 @@ $(function() {
 // 포트폴리오 슬라이드
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 4,
-  spaceBetween: 13,
+  spaceBetween: 16,
   slidesPerGroup: 1,
   loop: true,
   loopFillGroupWithBlank: true,

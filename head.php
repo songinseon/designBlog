@@ -36,20 +36,20 @@
   <div class="">
 
     <div class="wrap overflow-x-hidden flex flex-col justify-center items-center">
-      <header class="container h-36 mx-auto top-bar">
+      <header class="container h-44 mx-auto top-bar flex justify-center">
 
-        <div class="flex items-center justify-between h-full">
+        <div class="flex items-center justify-between h-full w-11/12">
           <!-- 로고 -->
           <a href="index.ssg.php" class="<?=$pageCode == "home" ? "at" : ""?> logo mr-32">
             <img src="./img/logo.png" alt="">
           </a>
 
           <!-- 상단 메뉴 -->
-          <nav class="text-xl tracking-wider whitespace-nowrap">
-            <a class="<?=$pageCode == "home" ? "at" : ""?> ml-36" href="index.ssg.php#section-2">ME</a>
-            <a class="<?=$pageCode == "brand" ? "at" : ""?> ml-36" href="brand.ssg.php">BRANDING</a>
-            <a class="<?=$pageCode == "pf" ? "at" : ""?> ml-36" href="pf.ssg.php">PORTFOLIO</a>
-            <a class="<?=$pageCode == "process" ? "at" : ""?> ml-36" href="process.ssg.php">PROCESS</a>
+          <nav class="text-xl tracking-wider justify-around whitespace-nowrap">
+            <a class="<?=$pageCode == "home" ? "at" : ""?>" href="index.ssg.php#section-2">ME</a>
+            <a class="<?=$pageCode == "brand" ? "at" : ""?> ml-28" href="brand.ssg.php">BRANDING</a>
+            <a class="<?=$pageCode == "pf" ? "at" : ""?> ml-28" href="pf.ssg.php">PORTFOLIO</a>
+            <a class="<?=$pageCode == "process" ? "at" : ""?> ml-28" href="process.ssg.php">PROCESS</a>
           </nav>
 
         </div>
