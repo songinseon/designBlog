@@ -106,7 +106,7 @@ require_once "head.php";
               </div>
               <div class="my-5">
                 <div class="text-2xl">PARTICIPATION</div>
-                <div class="my-2 text-base font-light ">기획 100%, 디자인 100%, 퍼블리싱100%</div>
+                <div class="my-2 text-base font-light ">기획 100%, 디자인 100%, 코딩100%</div>
               </div>
               <div class="mt-7 font-normal text-xs">
                 <a class="p-2" href="https://notefolio.net/designsun/257872" target="blank">기획</a>
@@ -128,11 +128,11 @@ require_once "head.php";
             <div class="text-white addi whitespace-nowrap">
               <div>
                 <div class="text-2xl">PROJECT</div>
-                <div class="my-2 text-base font-light">블루콤 데시벨 퍼블리싱</div>
+                <div class="my-2 text-base font-light">블루콤 데시벨 모작</div>
               </div>
               <div class="my-5">
                 <div class="text-2xl">PARTICIPATION</div>
-                <div class="my-2 text-base font-light ">퍼블리싱 100%</div>
+                <div class="my-2 text-base font-light ">코딩 100%</div>
               </div>
               <div class="mt-7 font-normal text-xs">
                 <a class="p-2 ml-2" href="https://songinseon.github.io/sitepublishing-1/" target="blank">퍼블리싱</a>
@@ -156,7 +156,7 @@ require_once "head.php";
               </div>
               <div class="my-5">
                 <div class="text-2xl">PARTICIPATION</div>
-                <div class="my-2 text-base font-light ">기획100%, 디자인 100%, 퍼블리싱 100%</div>
+                <div class="my-2 text-base font-light ">기획100%, 디자인 100%, 코딩 100%</div>
               </div>
               <div class="mt-7 font-normal text-xs">
                 <a class="p-2" href="https://codepen.io/songinseon/full/OJmwmNY" target="blank">기획</a>
@@ -178,11 +178,11 @@ require_once "head.php";
             <div class="text-white addi whitespace-nowrap">
               <div>
                 <div class="text-2xl">PROJECT</div>
-                <div class="my-2 text-base font-light">빽다방사이트 퍼블리싱</div>
+                <div class="my-2 text-base font-light">빽다방사이트 모작</div>
               </div>
               <div class="my-5">
                 <div class="text-2xl">PARTICIPATION</div>
-                <div class="my-2 text-base font-light ">퍼블리싱 100%</div>
+                <div class="my-2 text-base font-light ">코딩 100%</div>
               </div>
               <div class="mt-7 font-normal text-xs">
                 <a class="p-2" href="https://songinseon.github.io/sitepublishing-2/" target="blank">퍼블리싱</a>
@@ -226,11 +226,11 @@ require_once "head.php";
             <div class="text-white addi whitespace-nowrap">
               <div>
                 <div class="text-2xl">PROJECT</div>
-                <div class="my-2 text-base font-light">VAROH 사이트 퍼블리싱</div>
+                <div class="my-2 text-base font-light">VAROH 사이트 모작</div>
               </div>
               <div class="my-5">
                 <div class="text-2xl">PARTICIPATION</div>
-                <div class="my-2 text-base font-light ">퍼블리싱 100%</div>
+                <div class="my-2 text-base font-light ">코딩 100%</div>
               </div>
               <div class="mt-7 font-normal text-xs">
                 <a class="p-2" href="https://songinseon.github.io/sitepublishing-3/" target="blank">퍼블리싱</a>
@@ -241,6 +241,33 @@ require_once "head.php";
           <div class="my-8">
             <div class="text-2xl">웹사이트 PUBLISHING</div>
             <a class="my-2 text-base" href="https://songinseon.github.io/sitepublishing-3/" target="blank">VIEW MORE</a>
+          </div>
+        </div>
+
+        <div class="flex flex-col swiper-slide">
+          <div>
+            <div class="bg"></div>
+            <div class="text-white addi whitespace-nowrap">
+              <div>
+                <div class="text-2xl">PROJECT</div>
+                <div class="my-2 text-base font-light">카카오페이지 리디자인</div>
+              </div>
+              <div class="my-5">
+                <div class="text-2xl">PARTICIPATION</div>
+                <div class="my-2 text-base font-light ">기획 100%, 디자인 100%, 퍼블리싱 100%</div>
+              </div>
+              <div class="mt-7 font-normal text-xs">
+                <a class="p-2" href="https://www.figma.com/file/lnIrBEVFUuooXAICNZhhf7/WEB-SITE-REDESIGN?node-id=5%3A4" target="blank">디자인</a>
+                <a class="p-2" href="https://codepen.io/songinseon/pen/xxrVEMp" target="blank">기획</a>
+                <a class="p-2" href="https://songinseon.github.io/KAKAOSTAGE-REDESIGN/" target="blank">코딩</a>
+              </div>
+              
+            </div>
+            <img src="./img/pf-8.svg" alt="">
+          </div>
+          <div class="my-8">
+            <div class="text-2xl">웹사이트 PUBLISHING</div>
+            <a class="my-2 text-base" href="https://songinseon.github.io/KAKAOSTAGE-REDESIGN/" target="blank">VIEW MORE</a>
           </div>
         </div>
       </div>
