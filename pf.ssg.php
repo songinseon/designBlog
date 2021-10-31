@@ -68,7 +68,7 @@ require_once "head.php";
       <img src="./img/arrowright.png" alt="">
     </div>
 
-    <div class="container overflow-hidden h-screen mx-auto swiper-container mySwiper max-w-7xl">
+    <div class="container h-screen mx-auto overflow-hidden swiper-container mySwiper max-w-7xl">
       <div class="swiper-wrapper">
 
         <div class="flex flex-col swiper-slide">
@@ -77,22 +77,24 @@ require_once "head.php";
             <div class="text-white addi whitespace-nowrap">
               <div>
                 <div class="text-2xl">PROJECT</div>
-                <div class="my-2 text-base font-light">예스24 티켓 사이트 리디자인</div>
+                <div class="my-2 text-base font-light">카카오페이지 리디자인</div>
               </div>
               <div class="my-5">
                 <div class="text-2xl">PARTICIPATION</div>
-                <div class="my-2 text-base font-light ">기획 100%, 디자인 100%</div>
+                <div class="my-2 text-base font-light ">기획 100%, 디자인 100%, 코딩 100%</div>
               </div>
-              <div class="mt-7 font-normal text-xs">
-                <a class="p-2" href="https://notefolio.net/designsun/248859" target="blank">기획</a>
-                <a class="p-2 ml-2" href="https://i.postimg.cc/NFmfRwKY/2.png" data-lightbox="image-1" data-title="예스24 사이트 리디자인">디자인</a>
+              <div class="text-xs font-normal mt-7">
+                <a class="p-2" href="https://codepen.io/songinseon/full/xxrVEMp" target="blank">기획</a>
+                <a class="p-2 ml-2" href="https://www.figma.com/file/lnIrBEVFUuooXAICNZhhf7/WEB-SITE-REDESIGN?node-id=5%3A4" target="blank">디자인</a>
+                <a class="p-2 ml-2" href="https://songinseon.github.io/KAKAOSTAGE-REDESIGN/" target="blank">코딩</a>
               </div>
+              
             </div>
-            <img src="./img/pf-1.png" alt="">
+            <img src="./img/pf-8.svg" alt="">
           </div>
           <div class="my-8">
-            <div class="text-2xl">사이트 DESIGN</div>
-            <a class="my-2 text-base" href="https://i.postimg.cc/NFmfRwKY/2.png" data-lightbox="image-1" data-title="예스24 사이트 리디자인">VIEW MORE</a>
+            <div class="text-2xl">웹사이트 DESIGN</div>
+            <a class="my-2 text-base" href="https://songinseon.github.io/KAKAOSTAGE-REDESIGN/" target="blank">VIEW MORE</a>
           </div>
         </div>
 
@@ -108,7 +110,7 @@ require_once "head.php";
                 <div class="text-2xl">PARTICIPATION</div>
                 <div class="my-2 text-base font-light ">기획 100%, 디자인 100%, 코딩100%</div>
               </div>
-              <div class="mt-7 font-normal text-xs">
+              <div class="text-xs font-normal mt-7">
                 <a class="p-2" href="https://notefolio.net/designsun/257872" target="blank">기획</a>
                 <a class="p-2 ml-2" href="https://www.figma.com/proto/Tug2hGnQfWUUMyfXSTbqjN/DAY-BRUSH---1%EC%A1%B0(%EA%B9%80%EB%AF%BC%EC%A7%80%2C-%EC%86%A1%EC%9D%B8%EC%84%A0)%2C-https%3A%2F%2Fto2.kr%2FcPL?page-id=117%3A453&node-id=129%3A1466&viewport=287%2C617%2C0.5898043513298035&scaling=min-zoom" target="blank">디자인</a>
                 <a class="p-2 ml-2" href="https://songinseon.github.io/project/pf/work/" target="blank">코딩</a>
@@ -134,14 +136,14 @@ require_once "head.php";
                 <div class="text-2xl">PARTICIPATION</div>
                 <div class="my-2 text-base font-light ">코딩 100%</div>
               </div>
-              <div class="mt-7 font-normal text-xs">
+              <div class="text-xs font-normal mt-7">
                 <a class="p-2 ml-2" href="https://songinseon.github.io/sitepublishing-1/" target="blank">코딩</a>
               </div>
             </div>
             <img src="./img/pf-3.png" alt="">
           </div>
           <div class="my-8">
-            <div class="text-2xl">웹사이트 PUBLISHING</div>
+            <div class="text-2xl">웹사이트 CODING</div>
             <a class="my-2 text-base" href="https://songinseon.github.io/sitepublishing-1/" target="blank">VIEW MORE</a>
           </div>
         </div>
@@ -158,7 +160,7 @@ require_once "head.php";
                 <div class="text-2xl">PARTICIPATION</div>
                 <div class="my-2 text-base font-light ">기획100%, 디자인 100%, 코딩 100%</div>
               </div>
-              <div class="mt-7 font-normal text-xs">
+              <div class="text-xs font-normal mt-7">
                 <a class="p-2" href="https://codepen.io/songinseon/full/OJmwmNY" target="blank">기획</a>
                 <a class="p-2 ml-2" href="https://www.figma.com/file/mluywZpokG45gLjARK0NZk/PERSONAL-WEB-BLOG" target="blank">디자인</a>
                 <a class="p-2 ml-2" href="https://songinseon.github.io/designBlog/process.html">코딩</a>
@@ -184,15 +186,40 @@ require_once "head.php";
                 <div class="text-2xl">PARTICIPATION</div>
                 <div class="my-2 text-base font-light ">코딩 100%</div>
               </div>
-              <div class="mt-7 font-normal text-xs">
+              <div class="text-xs font-normal mt-7">
                 <a class="p-2" href="https://songinseon.github.io/sitepublishing-2/" target="blank">코딩</a>
               </div>
             </div>
             <img src="./img/pf-5.png" alt="">
           </div>
           <div class="my-8">
-            <div class="text-2xl">웹사이트 PUBLISHING</div>
+            <div class="text-2xl">웹사이트 CODING</div>
             <a class="my-2 text-base" href="https://songinseon.github.io/sitepublishing-2/" target="blank">VIEW MORE</a>
+          </div>
+        </div>
+
+        <div class="flex flex-col swiper-slide">
+          <div>
+            <div class="bg"></div>
+            <div class="text-white addi whitespace-nowrap">
+              <div>
+                <div class="text-2xl">PROJECT</div>
+                <div class="my-2 text-base font-light">예스24 티켓 사이트 리디자인</div>
+              </div>
+              <div class="my-5">
+                <div class="text-2xl">PARTICIPATION</div>
+                <div class="my-2 text-base font-light ">기획 100%, 디자인 100%</div>
+              </div>
+              <div class="text-xs font-normal mt-7">
+                <a class="p-2" href="https://notefolio.net/designsun/248859" target="blank">기획</a>
+                <a class="p-2 ml-2" href="https://i.postimg.cc/NFmfRwKY/2.png" data-lightbox="image-1" data-title="예스24 사이트 리디자인">디자인</a>
+              </div>
+            </div>
+            <img src="./img/pf-1.png" alt="">
+          </div>
+          <div class="my-8">
+            <div class="text-2xl">사이트 DESIGN</div>
+            <a class="my-2 text-base" href="https://i.postimg.cc/NFmfRwKY/2.png" data-lightbox="image-1" data-title="예스24 사이트 리디자인">VIEW MORE</a>
           </div>
         </div>
 
@@ -208,7 +235,7 @@ require_once "head.php";
                 <div class="text-2xl">PARTICIPATION</div>
                 <div class="my-2 text-base font-light ">디자인 50%</div>
               </div>
-              <div class="mt-7 font-normal text-xs">
+              <div class="text-xs font-normal mt-7">
                 <a class="p-2" href="https://i.postimg.cc/j50g4ZrH/1.png" data-lightbox="image-2" data-title="노브랜드버거 사이트 리디자인">디자인</a>
               </div>
             </div>
@@ -232,44 +259,20 @@ require_once "head.php";
                 <div class="text-2xl">PARTICIPATION</div>
                 <div class="my-2 text-base font-light ">코딩 100%</div>
               </div>
-              <div class="mt-7 font-normal text-xs">
+              <div class="text-xs font-normal mt-7">
                 <a class="p-2" href="https://songinseon.github.io/sitepublishing-3/" target="blank">코딩</a>
               </div>
             </div>
             <img src="./img/pf-7.png" alt="">
           </div>
           <div class="my-8">
-            <div class="text-2xl">웹사이트 PUBLISHING</div>
+            <div class="text-2xl">웹사이트 CODING</div>
             <a class="my-2 text-base" href="https://songinseon.github.io/sitepublishing-3/" target="blank">VIEW MORE</a>
           </div>
         </div>
 
-        <div class="flex flex-col swiper-slide">
-          <div>
-            <div class="bg"></div>
-            <div class="text-white addi whitespace-nowrap">
-              <div>
-                <div class="text-2xl">PROJECT</div>
-                <div class="my-2 text-base font-light">카카오페이지 리디자인</div>
-              </div>
-              <div class="my-5">
-                <div class="text-2xl">PARTICIPATION</div>
-                <div class="my-2 text-base font-light ">기획 100%, 디자인 100%, 퍼블리싱 100%</div>
-              </div>
-              <div class="mt-7 font-normal text-xs">
-                <a class="p-2" href="https://codepen.io/songinseon/full/xxrVEMp" target="blank">기획</a>
-                <a class="p-2 ml-2" href="https://www.figma.com/file/lnIrBEVFUuooXAICNZhhf7/WEB-SITE-REDESIGN?node-id=5%3A4" target="blank">디자인</a>
-                <a class="p-2 ml-2" href="https://songinseon.github.io/KAKAOSTAGE-REDESIGN/" target="blank">코딩</a>
-              </div>
-              
-            </div>
-            <img src="./img/pf-8.svg" alt="">
-          </div>
-          <div class="my-8">
-            <div class="text-2xl">웹사이트 PUBLISHING</div>
-            <a class="my-2 text-base" href="https://songinseon.github.io/KAKAOSTAGE-REDESIGN/" target="blank">VIEW MORE</a>
-          </div>
-        </div>
+        
+
       </div>
     </div>
 
